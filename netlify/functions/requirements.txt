@@ -1,0 +1,3 @@
+# Kept empty on purpose. The chatbot uses only the Python standard library.
+# Do not add scikit-learn or pandas here: a Netlify function is limited to
+# 250 MB unzipped, and those libraries are larger than that.

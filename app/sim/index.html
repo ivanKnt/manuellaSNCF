@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Manuella — simulation voyageur SNCF</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">Manuella <span data-i18n="brand">simulation voyageur</span></div>
+    <div class="topbar-right">
+      <span id="assistant-mode"></span>
+      <button class="report-btn" id="btn-report" data-i18n="reportBtn">Rapport : comment ça marche</button>
+      <div class="lang-switch">
+        <button class="lang" data-lang="fr">FR</button>
+        <button class="lang" data-lang="en">EN</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- 1. Booking ------------------------------------------------------- -->
+    <section id="screen-booking" class="screen active">
+      <div class="booking-layout">
+        <div class="card booking">
+          <h1 data-i18n="whereGoing">Où allez-vous ?</h1>
+          <p class="hint-line"><span data-i18n="hint">Chaque train ci-dessous est un vrai train SNCF, issu de l'horaire officiel.</span>
+            <button class="why" data-chapter="timetable" data-i18n="whereFrom">D'où vient ceci ?</button></p>
+          <div class="grid2">
+            <label><span data-i18n="day">Jour</span><select id="day"></select></label>
+            <label><span data-i18n="itinerary">Itinéraire</span><select id="itinerary"></select></label>
+          </div>
+          <label class="full"><span data-i18n="train">Train</span><select id="train"></select></label>
+          <div class="grid2">
+            <label><span data-i18n="from">De</span><select id="origin"></select></label>
+            <label><span data-i18n="to">À</span><select id="destination"></select></label>
+          </div>
+          <label class="check" id="connection-row">
+            <input type="checkbox" id="with-connection">
+            <span id="connection-label"></span>
+          </label>
+          <details class="settings">
+            <summary data-i18n="settings">Réglages de la simulation</summary>
+            <div class="grid3">
+              <label><span data-i18n="weather">Météo</span><select id="weather"></select></label>
+              <label><span data-i18n="randomIncidents">Incidents aléatoires</span>
+                <select id="incident-mode">
+                  <option value="off" data-i18n="incOff">Désactivés (seulement si j'en déclenche un)</option>
+                  <option value="rare" data-i18n="incRare" selected>Rares</option>
+                  <option value="frequent" data-i18n="incFrequent">Fréquents</option>
+                </select>
+              </label>
+              <label><span data-i18n="speed">Vitesse</span><select id="speed-initial"></select></label>
+            </div>
+          </details>
+          <button class="primary" id="btn-book" data-i18n="getTicket">Obtenir mon billet</button>
+        </div>
+
+        <div class="card ticket hidden" id="ticket">
+          <div class="ticket-head">
+            <span class="ticket-train" id="t-train"></span>
+            <span class="ticket-date" id="t-date"></span>
+          </div>
+          <div class="ticket-route">
+            <div><div class="ticket-time" id="t-dep"></div><div class="ticket-station" id="t-from"></div></div>
+            <div class="ticket-line"><span id="t-duration"></span></div>
+            <div class="right"><div class="ticket-time" id="t-arr"></div><div class="ticket-station" id="t-to"></div></div>
+          </div>
+          <div class="ticket-extra" id="t-stops"></div>
+          <div class="ticket-extra" id="t-connection"></div>
+          <button class="primary" id="btn-board" data-i18n="board">Monter dans le train</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. Boarding ------------------------------------------------------ -->
+    <section id="screen-boarding" class="screen">
+      <div class="card scene">
+        <div class="platform-sign" id="boarding-sign"></div>
+        <svg viewBox="0 0 900 300" class="boarding-svg" aria-hidden="true">
+          <rect x="0" y="0" width="900" height="300" fill="#dfe7f3"/>
+          <rect x="0" y="236" width="900" height="64" fill="#9aa8bd"/>
+          <rect x="0" y="236" width="900" height="6" fill="#f2c94c"/>
+          <g id="boarding-train" class="b-train">
+            <rect x="0" y="70" width="760" height="150" rx="34" fill="#0c1e3e"/>
+            <rect x="0" y="176" width="760" height="10" fill="#d6001c"/>
+            <rect x="40" y="96" width="90" height="46" rx="8" fill="#9ec5ff"/>
+            <rect x="150" y="96" width="90" height="46" rx="8" fill="#9ec5ff"/>
+            <rect x="250" y="96" width="90" height="46" rx="8" fill="#9ec5ff"/>
+            <rect x="460" y="96" width="90" height="46" rx="8" fill="#9ec5ff"/>
+            <rect x="570" y="96" width="90" height="46" rx="8" fill="#9ec5ff"/>
+            <rect x="358" y="88" width="84" height="132" fill="#1f3a68"/>
+            <rect id="door-left" class="door" x="360" y="90" width="40" height="130" fill="#c9d4e5"/>
+            <rect id="door-right" class="door" x="400" y="90" width="40" height="130" fill="#c9d4e5"/>
+          </g>
+          <g id="passenger" class="passenger">
+            <circle cx="0" cy="-74" r="13" fill="#0e7490"/>
+            <rect x="-13" y="-58" width="26" height="44" rx="10" fill="#0e7490"/>
+            <rect x="15" y="-48" width="14" height="22" rx="3" fill="#d97706"/>
+          </g>
+        </svg>
+        <p class="boarding-caption" id="boarding-caption"></p>
+      </div>
+    </section>
+
+    <!-- 3. Onboard ------------------------------------------------------- -->
+    <section id="screen-journey" class="screen">
+      <div class="journey-layout">
+        <div class="journey-main">
+          <div class="card journey-header">
+            <div>
+              <div class="train-name"><span id="j-train"></span> <button class="why" data-chapter="timetable">?</button></div>
+              <div class="route-name" id="j-route"></div>
+            </div>
+            <div class="clock" id="j-clock">--:--</div>
+            <div class="chips">
+              <span class="chip" id="j-weather"></span><button class="why" data-chapter="weather">?</button>
+              <span class="chip status ok" id="j-status">On time</span>
+            </div>
+          </div>
+
+          <div class="card map-card">
+            <svg id="route-map" viewBox="0 0 1000 210" aria-label="Plan de la ligne"></svg>
+          </div>
+
+          <div class="journey-grid">
+            <div class="card display">
+              <h3 data-i18n="onboard">Écran de bord</h3>
+              <div class="kv"><span data-i18n="nextStop">Prochain arrêt</span><strong id="d-next"></strong></div>
+              <div class="kv"><span data-i18n="scheduledArrival">Arrivée prévue</span><strong id="d-scheduled"></strong></div>
+              <div class="kv"><span><span data-i18n="estimatedArrival">Arrivée estimée</span> <button class="why" data-chapter="arrival">?</button></span><strong id="d-estimated"></strong></div>
+              <div class="kv" id="d-connection-row"><span><span data-i18n="connection">Correspondance</span> <button class="why" data-chapter="arrival">?</button></span><strong id="d-connection"></strong></div>
+              <div class="meter hidden" id="d-meter"><div class="meter-fill" id="d-meter-fill"></div></div>
+              <div class="incident-box hidden" id="d-incident"></div>
+              <div class="incident-why hidden" id="d-incident-why">
+                <button class="why" data-chapter="position" data-i18n="whereExactly">Où exactement ?</button>
+                <button class="why" data-chapter="incidents" data-i18n="whyRange">Pourquoi cette fourchette ?</button>
+                <button class="why" data-chapter="model" data-i18n="whatModel">Qu'a vu le modèle ?</button>
+                <button class="why" data-chapter="updating" data-i18n="whyChange">Pourquoi ça change ?</button>
+              </div>
+            </div>
+
+            <div class="card controls">
+              <h3 data-i18n="controls">Commandes</h3>
+              <div class="row">
+                <button id="btn-pause" data-i18n="pause">Pause</button>
+                <div class="seg" id="speed-buttons"></div>
+              </div>
+              <label><span data-i18n="incidentType">Type d'incident</span><select id="incident-type"></select></label>
+              <button class="danger" id="btn-incident" data-i18n="trigger">Déclencher un incident</button>
+              <label><span data-i18n="randomIncidents">Incidents aléatoires</span>
+                <select id="incident-mode-live">
+                  <option value="off" data-i18n="incOffShort">Désactivés</option>
+                  <option value="rare" data-i18n="incRare">Rares</option>
+                  <option value="frequent" data-i18n="incFrequent">Fréquents</option>
+                </select>
+              </label>
+              <label class="check"><input type="checkbox" id="audio"> <span data-i18n="spoken">Annonces sonores</span></label>
+            </div>
+          </div>
+        </div>
+
+        <!-- The passenger's train app -->
+        <aside class="phone">
+          <div class="phone-head">
+            <strong>SNCF Connect</strong>
+            <div class="tabs">
+              <button class="tab active" data-tab="feed" data-i18n="notifications">Notifications</button>
+              <button class="tab" data-tab="chat" data-i18n="assistant">Assistant</button>
+            </div>
+          </div>
+          <div class="phone-body" id="tab-feed"></div>
+          <div class="phone-body hidden" id="tab-chat"></div>
+          <form class="chat-form hidden" id="chat-form">
+            <input id="chat-input" data-i18n-placeholder="askPlaceholder" placeholder="Posez une question sur votre trajet" autocomplete="off">
+            <button type="submit" data-i18n="send">Envoyer</button>
+          </form>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <div class="toast hidden" id="toast"><strong id="toast-title"></strong><span id="toast-text"></span></div>
+
+  <div class="modal hidden" id="summary">
+    <div class="card modal-card" id="summary-body"></div>
+  </div>
+
+  <!-- The built-in report -------------------------------------------------- -->
+  <div class="report hidden" id="report">
+    <div class="report-panel">
+      <nav class="report-nav">
+        <div class="report-nav-title" data-i18n="reportTitle">Rapport</div>
+        <div id="report-toc"></div>
+      </nav>
+      <article class="report-body">
+        <button class="report-close" id="report-close" data-i18n="close" aria-label="Fermer">Fermer</button>
+        <div id="report-content"></div>
+      </article>
+    </div>
+  </div>
+
+  <script src="engine.js"></script>
+  <script src="i18n.js"></script>
+  <script src="app.js"></script>
+  <script src="report-fr.js"></script>
+  <script src="report.js"></script>
+</body>
+</html>

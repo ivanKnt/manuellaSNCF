@@ -1,0 +1,6 @@
+# Installed on Netlify's build machine only, to train the models and write
+# app/sim/bundle.json. These libraries are NOT shipped to the site: they are
+# too large for a Netlify function.
+pandas
+scikit-learn
+joblib

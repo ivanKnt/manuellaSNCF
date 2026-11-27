@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.DS_Store
+
+# Secrets
+.env
+
+# Trained models
+models/*.joblib
+models/*.pkl
+
+# Generated data (reproducible via src/generate_data.py)
+data/incidents.csv
+data/impact.csv
+data/training_data.csv
+
+# Written by the Netlify build (src/export_netlify.py) from the models above.
+app/sim/bundle.json
+
+# Raw SNCF timetable (downloaded by src/build_routes.py, ~100 MB)
+data/raw/

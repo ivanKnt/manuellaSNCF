@@ -1,0 +1,7 @@
+line_id,line_type,segment_id,from_stop,to_stop,track_layout,length_km,zone,near_depot
+TER-LyonMacon,TER,SEG-03,Villefranche,Belleville,single,9,rural,no
+TER-LyonMacon,TER,SEG-07,Macon-Loche,Macon-Ville,single,6,rural,yes
+TER-LyonMacon,TER,SEG-09,Fleurville,Pont-de-Veyle,single,11,rural,no
+TGV-ParisLyon,TGV,GDL-station,Paris-Gare-de-Lyon,Paris-Gare-de-Lyon,double,0,urban,yes
+TGV-ParisLyon,TGV,SEG-21,Le-Creusot,Macon-Loche-TGV,double,58,rural,no
+TGV-ParisLille,TGV,SEG-14,Arras,Lille-Europe,double,42,rural,no

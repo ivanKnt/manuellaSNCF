@@ -1,0 +1,4138 @@
+{
+ "source": {
+  "publisher": "SNCF",
+  "page": "https://transport.data.gouv.fr/datasets/horaires-sncf",
+  "url": "https://eu.ftp.opendatasoft.com/sncf/plandata/Export_OpenData_SNCF_GTFS_NewTripId.zip",
+  "feed_version": "2026-11-26",
+  "valid_from": "2026-11-26",
+  "valid_to": "2027-04-30",
+  "published_on": "2026-11-26"
+ },
+ "big_city_stations": {
+  "87686006": "Paris",
+  "87271007": "Paris",
+  "87723197": "Lyon",
+  "87747006": "Grenoble",
+  "87286005": "Lille",
+  "87223263": "Lille"
+ },
+ "days": [
+  {
+   "date": "2026-12-08",
+   "day_type": "weekday",
+   "itineraries": [
+    {
+     "id": "paris-lyon",
+     "label": "Paris → Lyon (high-speed TGV)",
+     "label_fr": "Paris → Lyon (TGV, grande vitesse)",
+     "origin": "87686006",
+     "destination": "87723197",
+     "line_type": "TGV",
+     "line_name": "LGV Sud-Est (high-speed line), 409 km",
+     "line_name_fr": "LGV Sud-Est (ligne à grande vitesse), 409 km",
+     "track_layout": "double",
+     "track_note": "Double track over the whole high-speed line.",
+     "track_note_fr": "Double voie sur toute la ligne à grande vitesse.",
+     "sources": [
+      {
+       "title": "LGV Sud-Est - Wikipedia (infobox: 'Nombre de voies: Double voie')",
+       "url": "https://fr.wikipedia.org/wiki/LGV_Sud-Est"
+      }
+     ],
+     "trains": [
+      {
+       "id": "TGV INOUI 6641",
+       "number": "6641",
+       "brand": "TGV INOUI",
+       "stops": [
+        {
+         "uic": "87686006",
+         "name": "Paris Gare de Lyon Hall 1 - 2",
+         "lat": 48.844945,
+         "lon": 2.373481,
+         "arrival": "06:20",
+         "departure": "06:20",
+         "arrival_min": 380,
+         "departure_min": 380
+        },
+        {
+         "uic": "87694109",
+         "name": "Le Creusot-TGV",
+         "lat": 46.765339,
+         "lon": 4.49943,
+         "arrival": "07:40",
+         "departure": "07:43",
+         "arrival_min": 460,
+         "departure_min": 463
+        },
+        {
+         "uic": "87723197",
+         "name": "Lyon Part Dieu",
+         "lat": 45.760596,
+         "lon": 4.859409,
+         "arrival": "08:22",
+         "departure": "08:27",
+         "arrival_min": 502,
+         "departure_min": 507
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        },
+        {
+         "track_layout": "double"
+        }
+       ]
+      },
+      {
+       "id": "TGV INOUI 6603",
+       "number": "6603",
+       "brand": "TGV INOUI",
+       "stops": [
+        {
+         "uic": "87686006",
+         "name": "Paris Gare de Lyon Hall 1 - 2",
+         "lat": 48.844945,
+         "lon": 2.373481,
+         "arrival": "07:00",
+         "departure": "07:00",
+         "arrival_min": 420,
+         "departure_min": 420
+        },
+        {
+         "uic": "87723197",
+         "name": "Lyon Part Dieu",
+         "lat": 45.760596,
+         "lon": 4.859409,
+         "arrival": "08:56",
+         "departure": "09:02",
+         "arrival_min": 536,
+         "departure_min": 542
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        }
+       ]
+      },
+      {
+       "id": "TGV INOUI 6643",
+       "number": "6643",
+       "brand": "TGV INOUI",
+       "stops": [
+        {
+         "uic": "87686006",
+         "name": "Paris Gare de Lyon Hall 1 - 2",
+         "lat": 48.844945,
+         "lon": 2.373481,
+         "arrival": "07:26",
+         "departure": "07:26",
+         "arrival_min": 446,
+         "departure_min": 446
+        },
+        {
+         "uic": "87723197",
+         "name": "Lyon Part Dieu",
+         "lat": 45.760596,
+         "lon": 4.859409,
+         "arrival": "09:22",
+         "departure": "09:28",
+         "arrival_min": 562,
+         "departure_min": 568
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        }
+       ]
+      },
+      {
+       "id": "TGV INOUI 6681",
+       "number": "6681",
+       "brand": "TGV INOUI",
+       "stops": [
+        {
+         "uic": "87686006",
+         "name": "Paris Gare de Lyon Hall 1 - 2",
+         "lat": 48.844945,
+         "lon": 2.373481,
+         "arrival": "07:52",
+         "departure": "07:52",
+         "arrival_min": 472,
+         "departure_min": 472
+        },
+        {
+         "uic": "87694109",
+         "name": "Le Creusot-TGV",
+         "lat": 46.765339,
+         "lon": 4.49943,
+         "arrival": "09:12",
+         "departure": "09:15",
+         "arrival_min": 552,
+         "departure_min": 555
+        },
+        {
+         "uic": "87723197",
+         "name": "Lyon Part Dieu",
+         "lat": 45.760596,
+         "lon": 4.859409,
+         "arrival": "09:56",
+         "departure": "10:02",
+         "arrival_min": 596,
+         "departure_min": 602
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        },
+        {
+         "track_layout": "double"
+        }
+       ]
+      },
+      {
+       "id": "TGV INOUI 6607",
+       "number": "6607",
+       "brand": "TGV INOUI",
+       "stops": [
+        {
+         "uic": "87686006",
+         "name": "Paris Gare de Lyon Hall 1 - 2",
+         "lat": 48.844945,
+         "lon": 2.373481,
+         "arrival": "09:00",
+         "departure": "09:00",
+         "arrival_min": 540,
+         "departure_min": 540
+        },
+        {
+         "uic": "87723197",
+         "name": "Lyon Part Dieu",
+         "lat": 45.760596,
+         "lon": 4.859409,
+         "arrival": "10:56",
+         "departure": "11:02",
+         "arrival_min": 656,
+         "departure_min": 662
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        }
+       ]
+      },
+      {
+       "id": "TGV INOUI 6609",
+       "number": "6609",
+       "brand": "TGV INOUI",
+       "stops": [
+        {
+         "uic": "87686006",
+         "name": "Paris Gare de Lyon Hall 1 - 2",
+         "lat": 48.844945,
+         "lon": 2.373481,
+         "arrival": "10:00",
+         "departure": "10:00",
+         "arrival_min": 600,
+         "departure_min": 600
+        },
+        {
+         "uic": "87723197",
+         "name": "Lyon Part Dieu",
+         "lat": 45.760596,
+         "lon": 4.859409,
+         "arrival": "11:56",
+         "departure": "12:02",
+         "arrival_min": 716,
+         "departure_min": 722
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        }
+       ]
+      },
+      {
+       "id": "TGV INOUI 6611",
+       "number": "6611",
+       "brand": "TGV INOUI",
+       "stops": [
+        {
+         "uic": "87686006",
+         "name": "Paris Gare de Lyon Hall 1 - 2",
+         "lat": 48.844945,
+         "lon": 2.373481,
+         "arrival": "11:00",
+         "departure": "11:00",
+         "arrival_min": 660,
+         "departure_min": 660
+        },
+        {
+         "uic": "87723197",
+         "name": "Lyon Part Dieu",
+         "lat": 45.760596,
+         "lon": 4.859409,
+         "arrival": "12:56",
+         "departure": "13:02",
+         "arrival_min": 776,
+         "departure_min": 782
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        }
+       ]
+      },
+      {
+       "id": "TGV INOUI 6613",
+       "number": "6613",
+       "brand": "TGV INOUI",
+       "stops": [
+        {
+         "uic": "87686006",
+         "name": "Paris Gare de Lyon Hall 1 - 2",
+         "lat": 48.844945,
+         "lon": 2.373481,
+         "arrival": "11:52",
+         "departure": "11:52",
+         "arrival_min": 712,
+         "departure_min": 712
+        },
+        {
+         "uic": "87694109",
+         "name": "Le Creusot-TGV",
+         "lat": 46.765339,
+         "lon": 4.49943,
+         "arrival": "13:12",
+         "departure": "13:15",
+         "arrival_min": 792,
+         "departure_min": 795
+        },
+        {
+         "uic": "87723197",
+         "name": "Lyon Part Dieu",
+         "lat": 45.760596,
+         "lon": 4.859409,
+         "arrival": "13:56",
+         "departure": "14:02",
+         "arrival_min": 836,
+         "departure_min": 842
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        },
+        {
+         "track_layout": "double"
+        }
+       ]
+      },
+      {
+       "id": "OUIGO 7803",
+       "number": "7803",
+       "brand": "OUIGO",
+       "stops": [
+        {
+         "uic": "87686006",
+         "name": "Paris Gare de Lyon Hall 1 - 2",
+         "lat": 48.844945,
+         "lon": 2.373481,
+         "arrival": "12:26",
+         "departure": "12:26",
+         "arrival_min": 746,
+         "departure_min": 746
+        },
+        {
+         "uic": "87723197",
+         "name": "Lyon Part Dieu",
+         "lat": 45.760596,
+         "lon": 4.859409,
+         "arrival": "14:22",
+         "departure": "14:28",
+         "arrival_min": 862,
+         "departure_min": 868
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        }
+       ]
+      },
+      {
+       "id": "TGV INOUI 6615",
+       "number": "6615",
+       "brand": "TGV INOUI",
+       "stops": [
+        {
+         "uic": "87686006",
+         "name": "Paris Gare de Lyon Hall 1 - 2",
+         "lat": 48.844945,
+         "lon": 2.373481,
+         "arrival": "12:52",
+         "departure": "12:52",
+         "arrival_min": 772,
+         "departure_min": 772
+        },
+        {
+         "uic": "87723197",
+         "name": "Lyon Part Dieu",
+         "lat": 45.760596,
+         "lon": 4.859409,
+         "arrival": "14:56",
+         "departure": "15:02",
+         "arrival_min": 896,
+         "departure_min": 902
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        }
+       ]
+      },
+      {
+       "id": "TGV INOUI 6685",
+       "number": "6685",
+       "brand": "TGV INOUI",
+       "stops": [
+        {
+         "uic": "87686006",
+         "name": "Paris Gare de Lyon Hall 1 - 2",
+         "lat": 48.844945,
+         "lon": 2.373481,
+         "arrival": "12:52",
+         "departure": "12:52",
+         "arrival_min": 772,
+         "departure_min": 772
+        },
+        {
+         "uic": "87723197",
+         "name": "Lyon Part Dieu",
+         "lat": 45.760596,
+         "lon": 4.859409,
+         "arrival": "14:56",
+         "departure": "15:06",
+         "arrival_min": 896,
+         "departure_min": 906
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        }
+       ]
+      },
+      {
+       "id": "TGV INOUI 6617",
+       "number": "6617",
+       "brand": "TGV INOUI",
+       "stops": [
+        {
+         "uic": "87686006",
+         "name": "Paris Gare de Lyon Hall 1 - 2",
+         "lat": 48.844945,
+         "lon": 2.373481,
+         "arrival": "13:52",
+         "departure": "13:52",
+         "arrival_min": 832,
+         "departure_min": 832
+        },
+        {
+         "uic": "87694109",
+         "name": "Le Creusot-TGV",
+         "lat": 46.765339,
+         "lon": 4.49943,
+         "arrival": "15:12",
+         "departure": "15:15",
+         "arrival_min": 912,
+         "departure_min": 915
+        },
+        {
+         "uic": "87723197",
+         "name": "Lyon Part Dieu",
+         "lat": 45.760596,
+         "lon": 4.859409,
+         "arrival": "15:56",
+         "departure": "16:02",
+         "arrival_min": 956,
+         "departure_min": 962
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        },
+        {
+         "track_layout": "double"
+        }
+       ]
+      },
+      {
+       "id": "TGV INOUI 6619",
+       "number": "6619",
+       "brand": "TGV INOUI",
+       "stops": [
+        {
+         "uic": "87686006",
+         "name": "Paris Gare de Lyon Hall 1 - 2",
+         "lat": 48.844945,
+         "lon": 2.373481,
+         "arrival": "15:00",
+         "departure": "15:00",
+         "arrival_min": 900,
+         "departure_min": 900
+        },
+        {
+         "uic": "87723197",
+         "name": "Lyon Part Dieu",
+         "lat": 45.760596,
+         "lon": 4.859409,
+         "arrival": "16:56",
+         "departure": "17:02",
+         "arrival_min": 1016,
+         "departure_min": 1022
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        }
+       ]
+      },
+      {
+       "id": "TGV INOUI 6621",
+       "number": "6621",
+       "brand": "TGV INOUI",
+       "stops": [
+        {
+         "uic": "87686006",
+         "name": "Paris Gare de Lyon Hall 1 - 2",
+         "lat": 48.844945,
+         "lon": 2.373481,
+         "arrival": "15:52",
+         "departure": "15:52",
+         "arrival_min": 952,
+         "departure_min": 952
+        },
+        {
+         "uic": "87694109",
+         "name": "Le Creusot-TGV",
+         "lat": 46.765339,
+         "lon": 4.49943,
+         "arrival": "17:12",
+         "departure": "17:15",
+         "arrival_min": 1032,
+         "departure_min": 1035
+        },
+        {
+         "uic": "87725705",
+         "name": "Mâcon - Loché TGV",
+         "lat": 46.282912,
+         "lon": 4.778924,
+         "arrival": "17:33",
+         "departure": "17:36",
+         "arrival_min": 1053,
+         "departure_min": 1056
+        },
+        {
+         "uic": "87723197",
+         "name": "Lyon Part Dieu",
+         "lat": 45.760596,
+         "lon": 4.859409,
+         "arrival": "18:00",
+         "departure": "18:06",
+         "arrival_min": 1080,
+         "departure_min": 1086
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        },
+        {
+         "track_layout": "double"
+        },
+        {
+         "track_layout": "double"
+        }
+       ]
+      },
+      {
+       "id": "TGV INOUI 6623",
+       "number": "6623",
+       "brand": "TGV INOUI",
+       "stops": [
+        {
+         "uic": "87686006",
+         "name": "Paris Gare de Lyon Hall 1 - 2",
+         "lat": 48.844945,
+         "lon": 2.373481,
+         "arrival": "17:00",
+         "departure": "17:00",
+         "arrival_min": 1020,
+         "departure_min": 1020
+        },
+        {
+         "uic": "87723197",
+         "name": "Lyon Part Dieu",
+         "lat": 45.760596,
+         "lon": 4.859409,
+         "arrival": "18:56",
+         "departure": "19:02",
+         "arrival_min": 1136,
+         "departure_min": 1142
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        }
+       ]
+      },
+      {
+       "id": "TGV INOUI 6687",
+       "number": "6687",
+       "brand": "TGV INOUI",
+       "stops": [
+        {
+         "uic": "87686006",
+         "name": "Paris Gare de Lyon Hall 1 - 2",
+         "lat": 48.844945,
+         "lon": 2.373481,
+         "arrival": "17:00",
+         "departure": "17:00",
+         "arrival_min": 1020,
+         "departure_min": 1020
+        },
+        {
+         "uic": "87723197",
+         "name": "Lyon Part Dieu",
+         "lat": 45.760596,
+         "lon": 4.859409,
+         "arrival": "18:56",
+         "departure": "19:06",
+         "arrival_min": 1136,
+         "departure_min": 1146
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        }
+       ]
+      },
+      {
+       "id": "TGV INOUI 6663",
+       "number": "6663",
+       "brand": "TGV INOUI",
+       "stops": [
+        {
+         "uic": "87686006",
+         "name": "Paris Gare de Lyon Hall 1 - 2",
+         "lat": 48.844945,
+         "lon": 2.373481,
+         "arrival": "17:26",
+         "departure": "17:26",
+         "arrival_min": 1046,
+         "departure_min": 1046
+        },
+        {
+         "uic": "87723197",
+         "name": "Lyon Part Dieu",
+         "lat": 45.760596,
+         "lon": 4.859409,
+         "arrival": "19:22",
+         "departure": "19:28",
+         "arrival_min": 1162,
+         "departure_min": 1168
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        }
+       ]
+      },
+      {
+       "id": "TGV INOUI 6627",
+       "number": "6627",
+       "brand": "TGV INOUI",
+       "stops": [
+        {
+         "uic": "87686006",
+         "name": "Paris Gare de Lyon Hall 1 - 2",
+         "lat": 48.844945,
+         "lon": 2.373481,
+         "arrival": "17:52",
+         "departure": "17:52",
+         "arrival_min": 1072,
+         "departure_min": 1072
+        },
+        {
+         "uic": "87694109",
+         "name": "Le Creusot-TGV",
+         "lat": 46.765339,
+         "lon": 4.49943,
+         "arrival": "19:12",
+         "departure": "19:15",
+         "arrival_min": 1152,
+         "departure_min": 1155
+        },
+        {
+         "uic": "87723197",
+         "name": "Lyon Part Dieu",
+         "lat": 45.760596,
+         "lon": 4.859409,
+         "arrival": "19:54",
+         "departure": "20:02",
+         "arrival_min": 1194,
+         "departure_min": 1202
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        },
+        {
+         "track_layout": "double"
+        }
+       ]
+      },
+      {
+       "id": "TGV INOUI 6669",
+       "number": "6669",
+       "brand": "TGV INOUI",
+       "stops": [
+        {
+         "uic": "87686006",
+         "name": "Paris Gare de Lyon Hall 1 - 2",
+         "lat": 48.844945,
+         "lon": 2.373481,
+         "arrival": "18:26",
+         "departure": "18:26",
+         "arrival_min": 1106,
+         "departure_min": 1106
+        },
+        {
+         "uic": "87723197",
+         "name": "Lyon Part Dieu",
+         "lat": 45.760596,
+         "lon": 4.859409,
+         "arrival": "20:22",
+         "departure": "20:28",
+         "arrival_min": 1222,
+         "departure_min": 1228
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        }
+       ]
+      },
+      {
+       "id": "TGV INOUI 6689",
+       "number": "6689",
+       "brand": "TGV INOUI",
+       "stops": [
+        {
+         "uic": "87686006",
+         "name": "Paris Gare de Lyon Hall 1 - 2",
+         "lat": 48.844945,
+         "lon": 2.373481,
+         "arrival": "19:00",
+         "departure": "19:00",
+         "arrival_min": 1140,
+         "departure_min": 1140
+        },
+        {
+         "uic": "87723197",
+         "name": "Lyon Part Dieu",
+         "lat": 45.760596,
+         "lon": 4.859409,
+         "arrival": "20:56",
+         "departure": "21:06",
+         "arrival_min": 1256,
+         "departure_min": 1266
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        }
+       ]
+      },
+      {
+       "id": "OUIGO 7805",
+       "number": "7805",
+       "brand": "OUIGO",
+       "stops": [
+        {
+         "uic": "87686006",
+         "name": "Paris Gare de Lyon Hall 1 - 2",
+         "lat": 48.844945,
+         "lon": 2.373481,
+         "arrival": "19:26",
+         "departure": "19:26",
+         "arrival_min": 1166,
+         "departure_min": 1166
+        },
+        {
+         "uic": "87723197",
+         "name": "Lyon Part Dieu",
+         "lat": 45.760596,
+         "lon": 4.859409,
+         "arrival": "21:22",
+         "departure": "21:28",
+         "arrival_min": 1282,
+         "departure_min": 1288
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        }
+       ]
+      },
+      {
+       "id": "TGV INOUI 6633",
+       "number": "6633",
+       "brand": "TGV INOUI",
+       "stops": [
+        {
+         "uic": "87686006",
+         "name": "Paris Gare de Lyon Hall 1 - 2",
+         "lat": 48.844945,
+         "lon": 2.373481,
+         "arrival": "21:00",
+         "departure": "21:00",
+         "arrival_min": 1260,
+         "departure_min": 1260
+        },
+        {
+         "uic": "87694109",
+         "name": "Le Creusot-TGV",
+         "lat": 46.765339,
+         "lon": 4.49943,
+         "arrival": "22:20",
+         "departure": "22:23",
+         "arrival_min": 1340,
+         "departure_min": 1343
+        },
+        {
+         "uic": "87725705",
+         "name": "Mâcon - Loché TGV",
+         "lat": 46.282912,
+         "lon": 4.778924,
+         "arrival": "22:41",
+         "departure": "22:44",
+         "arrival_min": 1361,
+         "departure_min": 1364
+        },
+        {
+         "uic": "87723197",
+         "name": "Lyon Part Dieu",
+         "lat": 45.760596,
+         "lon": 4.859409,
+         "arrival": "23:10",
+         "departure": "23:16",
+         "arrival_min": 1390,
+         "departure_min": 1396
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        },
+        {
+         "track_layout": "double"
+        },
+        {
+         "track_layout": "double"
+        }
+       ]
+      }
+     ],
+     "connection": {
+      "station": "87723197",
+      "to": "87747006",
+      "label": "Grenoble",
+      "line_name": "Lyon - Grenoble (double track)",
+      "station_name": "Lyon Part Dieu",
+      "to_name": "Grenoble",
+      "trains": [
+       {
+        "id": "TER 17601",
+        "departure": "06:16",
+        "departure_min": 376,
+        "arrival": "07:39"
+       },
+       {
+        "id": "TER 17603",
+        "departure": "06:45",
+        "departure_min": 405,
+        "arrival": "08:09"
+       },
+       {
+        "id": "TER 17605",
+        "departure": "07:16",
+        "departure_min": 436,
+        "arrival": "08:39"
+       },
+       {
+        "id": "TER 17607",
+        "departure": "07:46",
+        "departure_min": 466,
+        "arrival": "09:09"
+       },
+       {
+        "id": "TER 17609",
+        "departure": "08:16",
+        "departure_min": 496,
+        "arrival": "09:39"
+       },
+       {
+        "id": "TER 17649",
+        "departure": "08:45",
+        "departure_min": 525,
+        "arrival": "10:09"
+       },
+       {
+        "id": "TER 17611",
+        "departure": "09:16",
+        "departure_min": 556,
+        "arrival": "10:39"
+       },
+       {
+        "id": "TER 17687",
+        "departure": "09:45",
+        "departure_min": 585,
+        "arrival": "11:09"
+       },
+       {
+        "id": "TER 17613",
+        "departure": "10:16",
+        "departure_min": 616,
+        "arrival": "11:39"
+       },
+       {
+        "id": "TER 17615",
+        "departure": "11:16",
+        "departure_min": 676,
+        "arrival": "12:39"
+       },
+       {
+        "id": "TER 17617",
+        "departure": "12:16",
+        "departure_min": 736,
+        "arrival": "13:39"
+       },
+       {
+        "id": "TER 17619",
+        "departure": "13:16",
+        "departure_min": 796,
+        "arrival": "14:39"
+       },
+       {
+        "id": "TER 17695",
+        "departure": "13:45",
+        "departure_min": 825,
+        "arrival": "15:09"
+       },
+       {
+        "id": "TER 17621",
+        "departure": "14:16",
+        "departure_min": 856,
+        "arrival": "15:39"
+       },
+       {
+        "id": "TER 17647",
+        "departure": "14:45",
+        "departure_min": 885,
+        "arrival": "16:09"
+       },
+       {
+        "id": "TER 17623",
+        "departure": "15:16",
+        "departure_min": 916,
+        "arrival": "16:39"
+       },
+       {
+        "id": "TER 17699",
+        "departure": "15:45",
+        "departure_min": 945,
+        "arrival": "17:09"
+       },
+       {
+        "id": "TER 17625",
+        "departure": "16:16",
+        "departure_min": 976,
+        "arrival": "17:39"
+       },
+       {
+        "id": "TER 17627",
+        "departure": "16:45",
+        "departure_min": 1005,
+        "arrival": "18:09"
+       },
+       {
+        "id": "TER 17629",
+        "departure": "17:16",
+        "departure_min": 1036,
+        "arrival": "18:39"
+       },
+       {
+        "id": "TER 17631",
+        "departure": "17:45",
+        "departure_min": 1065,
+        "arrival": "19:09"
+       },
+       {
+        "id": "TER 17633",
+        "departure": "18:16",
+        "departure_min": 1096,
+        "arrival": "19:39"
+       },
+       {
+        "id": "TER 17635",
+        "departure": "18:45",
+        "departure_min": 1125,
+        "arrival": "20:09"
+       },
+       {
+        "id": "TER 17637",
+        "departure": "19:16",
+        "departure_min": 1156,
+        "arrival": "20:39"
+       },
+       {
+        "id": "TER 17639",
+        "departure": "19:45",
+        "departure_min": 1185,
+        "arrival": "21:09"
+       },
+       {
+        "id": "TER 17641",
+        "departure": "20:16",
+        "departure_min": 1216,
+        "arrival": "21:39"
+       },
+       {
+        "id": "TER 17643",
+        "departure": "21:16",
+        "departure_min": 1276,
+        "arrival": "22:39"
+       },
+       {
+        "id": "TER 17645",
+        "departure": "22:16",
+        "departure_min": 1336,
+        "arrival": "23:39"
+       }
+      ]
+     }
+    },
+    {
+     "id": "grenoble-gap",
+     "label": "Grenoble → Gap (mountain TER, single track)",
+     "label_fr": "Grenoble → Gap (TER de montagne, voie unique)",
+     "origin": "87747006",
+     "destination": "87763003",
+     "line_type": "TER",
+     "line_name": "Ligne des Alpes (Grenoble - Veynes), then Veynes - Briançon line",
+     "line_name_fr": "Ligne des Alpes (Grenoble - Veynes), puis ligne Veynes - Briançon",
+     "track_layout": "single",
+     "track_note": "Single track for almost 100 km after Grenoble, back to double only for the last few km before Veynes; single track again from Veynes to Gap.",
+     "track_note_fr": "Voie unique sur près de 100 km après Grenoble, double voie seulement sur les derniers kilomètres avant Veynes, puis de nouveau voie unique de Veynes à Gap.",
+     "sources": [
+      {
+       "title": "Ligne de Lyon-Perrache à Marseille-Saint-Charles (via Grenoble) - Wikipedia, section 'Tracé' (citing SNCF technical documents RT 5076)",
+       "url": "https://fr.wikipedia.org/wiki/Ligne_de_Lyon-Perrache_%C3%A0_Marseille-Saint-Charles_(via_Grenoble)"
+      },
+      {
+       "title": "Ligne de Veynes à Briançon - Wikipedia ('Veynes - Gap : voie unique')",
+       "url": "https://fr.wikipedia.org/wiki/Ligne_de_Veynes_%C3%A0_Brian%C3%A7on"
+      }
+     ],
+     "trains": [
+      {
+       "id": "TER 885601",
+       "number": "885601",
+       "brand": "TER",
+       "stops": [
+        {
+         "uic": "87747006",
+         "name": "Grenoble",
+         "lat": 45.191491,
+         "lon": 5.714548,
+         "arrival": "08:09",
+         "departure": "08:09",
+         "arrival_min": 489,
+         "departure_min": 489
+        },
+        {
+         "uic": "87752899",
+         "name": "Pont-de-Claix l'Étoile",
+         "lat": 45.13748,
+         "lon": 5.70258,
+         "arrival": "08:15",
+         "departure": "08:16",
+         "arrival_min": 495,
+         "departure_min": 496
+        },
+        {
+         "uic": "87747535",
+         "name": "Jarrie - Vizille",
+         "lat": 45.085439,
+         "lon": 5.742357,
+         "arrival": "08:22",
+         "departure": "08:23",
+         "arrival_min": 502,
+         "departure_min": 503
+        },
+        {
+         "uic": "87747568",
+         "name": "Saint-Georges-de-Commiers",
+         "lat": 45.043767,
+         "lon": 5.701787,
+         "arrival": "08:28",
+         "departure": "08:29",
+         "arrival_min": 508,
+         "departure_min": 509
+        },
+        {
+         "uic": "87747576",
+         "name": "Vif",
+         "lat": 45.047669,
+         "lon": 5.685425,
+         "arrival": "08:31",
+         "departure": "08:32",
+         "arrival_min": 511,
+         "departure_min": 512
+        },
+        {
+         "uic": "87747592",
+         "name": "Monestier-de-Clermont",
+         "lat": 44.912002,
+         "lon": 5.633977,
+         "arrival": "08:54",
+         "departure": "08:57",
+         "arrival_min": 534,
+         "departure_min": 537
+        },
+        {
+         "uic": "87747626",
+         "name": "Clelles - Mens",
+         "lat": 44.827269,
+         "lon": 5.605028,
+         "arrival": "09:12",
+         "departure": "09:13",
+         "arrival_min": 552,
+         "departure_min": 553
+        },
+        {
+         "uic": "87747667",
+         "name": "Lus-la-Croix-Haute",
+         "lat": 44.671073,
+         "lon": 5.697382,
+         "arrival": "09:45",
+         "departure": "09:46",
+         "arrival_min": 585,
+         "departure_min": 586
+        },
+        {
+         "uic": "87763250",
+         "name": "Aspres-sur-Buëch",
+         "lat": 44.519423,
+         "lon": 5.754559,
+         "arrival": "10:13",
+         "departure": "10:14",
+         "arrival_min": 613,
+         "departure_min": 614
+        },
+        {
+         "uic": "87763300",
+         "name": "Veynes Dévoluy",
+         "lat": 44.532019,
+         "lon": 5.815807,
+         "arrival": "10:22",
+         "departure": "10:23",
+         "arrival_min": 622,
+         "departure_min": 623
+        },
+        {
+         "uic": "87763003",
+         "name": "Gap",
+         "lat": 44.563714,
+         "lon": 6.085669,
+         "arrival": "10:43",
+         "departure": "10:43",
+         "arrival_min": 643,
+         "departure_min": 643
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "double"
+        },
+        {
+         "track_layout": "single"
+        }
+       ]
+      },
+      {
+       "id": "TER 885605",
+       "number": "885605",
+       "brand": "TER",
+       "stops": [
+        {
+         "uic": "87747006",
+         "name": "Grenoble",
+         "lat": 45.191491,
+         "lon": 5.714548,
+         "arrival": "10:20",
+         "departure": "10:20",
+         "arrival_min": 620,
+         "departure_min": 620
+        },
+        {
+         "uic": "87752899",
+         "name": "Pont-de-Claix l'Étoile",
+         "lat": 45.13748,
+         "lon": 5.70258,
+         "arrival": "10:26",
+         "departure": "10:27",
+         "arrival_min": 626,
+         "departure_min": 627
+        },
+        {
+         "uic": "87747535",
+         "name": "Jarrie - Vizille",
+         "lat": 45.085439,
+         "lon": 5.742357,
+         "arrival": "10:33",
+         "departure": "10:34",
+         "arrival_min": 633,
+         "departure_min": 634
+        },
+        {
+         "uic": "87747568",
+         "name": "Saint-Georges-de-Commiers",
+         "lat": 45.043767,
+         "lon": 5.701787,
+         "arrival": "10:39",
+         "departure": "10:40",
+         "arrival_min": 639,
+         "departure_min": 640
+        },
+        {
+         "uic": "87747576",
+         "name": "Vif",
+         "lat": 45.047669,
+         "lon": 5.685425,
+         "arrival": "10:43",
+         "departure": "10:44",
+         "arrival_min": 643,
+         "departure_min": 644
+        },
+        {
+         "uic": "87747592",
+         "name": "Monestier-de-Clermont",
+         "lat": 44.912002,
+         "lon": 5.633977,
+         "arrival": "11:04",
+         "departure": "11:05",
+         "arrival_min": 664,
+         "departure_min": 665
+        },
+        {
+         "uic": "87747626",
+         "name": "Clelles - Mens",
+         "lat": 44.827269,
+         "lon": 5.605028,
+         "arrival": "11:20",
+         "departure": "11:21",
+         "arrival_min": 680,
+         "departure_min": 681
+        },
+        {
+         "uic": "87747667",
+         "name": "Lus-la-Croix-Haute",
+         "lat": 44.671073,
+         "lon": 5.697382,
+         "arrival": "11:52",
+         "departure": "11:53",
+         "arrival_min": 712,
+         "departure_min": 713
+        },
+        {
+         "uic": "87763250",
+         "name": "Aspres-sur-Buëch",
+         "lat": 44.519423,
+         "lon": 5.754559,
+         "arrival": "12:21",
+         "departure": "12:22",
+         "arrival_min": 741,
+         "departure_min": 742
+        },
+        {
+         "uic": "87763300",
+         "name": "Veynes Dévoluy",
+         "lat": 44.532019,
+         "lon": 5.815807,
+         "arrival": "12:40",
+         "departure": "12:46",
+         "arrival_min": 760,
+         "departure_min": 766
+        },
+        {
+         "uic": "87763003",
+         "name": "Gap",
+         "lat": 44.563714,
+         "lon": 6.085669,
+         "arrival": "13:09",
+         "departure": "13:09",
+         "arrival_min": 789,
+         "departure_min": 789
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "double"
+        },
+        {
+         "track_layout": "single"
+        }
+       ]
+      },
+      {
+       "id": "TER 885611",
+       "number": "885611",
+       "brand": "TER",
+       "stops": [
+        {
+         "uic": "87747006",
+         "name": "Grenoble",
+         "lat": 45.191491,
+         "lon": 5.714548,
+         "arrival": "13:38",
+         "departure": "13:38",
+         "arrival_min": 818,
+         "departure_min": 818
+        },
+        {
+         "uic": "87752899",
+         "name": "Pont-de-Claix l'Étoile",
+         "lat": 45.13748,
+         "lon": 5.70258,
+         "arrival": "13:44",
+         "departure": "13:45",
+         "arrival_min": 824,
+         "departure_min": 825
+        },
+        {
+         "uic": "87747535",
+         "name": "Jarrie - Vizille",
+         "lat": 45.085439,
+         "lon": 5.742357,
+         "arrival": "13:51",
+         "departure": "13:52",
+         "arrival_min": 831,
+         "departure_min": 832
+        },
+        {
+         "uic": "87747568",
+         "name": "Saint-Georges-de-Commiers",
+         "lat": 45.043767,
+         "lon": 5.701787,
+         "arrival": "13:57",
+         "departure": "13:58",
+         "arrival_min": 837,
+         "departure_min": 838
+        },
+        {
+         "uic": "87747576",
+         "name": "Vif",
+         "lat": 45.047669,
+         "lon": 5.685425,
+         "arrival": "14:01",
+         "departure": "14:02",
+         "arrival_min": 841,
+         "departure_min": 842
+        },
+        {
+         "uic": "87747592",
+         "name": "Monestier-de-Clermont",
+         "lat": 44.912002,
+         "lon": 5.633977,
+         "arrival": "14:24",
+         "departure": "14:24",
+         "arrival_min": 864,
+         "departure_min": 864
+        },
+        {
+         "uic": "87747626",
+         "name": "Clelles - Mens",
+         "lat": 44.827269,
+         "lon": 5.605028,
+         "arrival": "14:39",
+         "departure": "14:40",
+         "arrival_min": 879,
+         "departure_min": 880
+        },
+        {
+         "uic": "87747667",
+         "name": "Lus-la-Croix-Haute",
+         "lat": 44.671073,
+         "lon": 5.697382,
+         "arrival": "15:11",
+         "departure": "15:12",
+         "arrival_min": 911,
+         "departure_min": 912
+        },
+        {
+         "uic": "87763250",
+         "name": "Aspres-sur-Buëch",
+         "lat": 44.519423,
+         "lon": 5.754559,
+         "arrival": "15:40",
+         "departure": "15:41",
+         "arrival_min": 940,
+         "departure_min": 941
+        },
+        {
+         "uic": "87763300",
+         "name": "Veynes Dévoluy",
+         "lat": 44.532019,
+         "lon": 5.815807,
+         "arrival": "15:49",
+         "departure": "15:50",
+         "arrival_min": 949,
+         "departure_min": 950
+        },
+        {
+         "uic": "87763003",
+         "name": "Gap",
+         "lat": 44.563714,
+         "lon": 6.085669,
+         "arrival": "16:10",
+         "departure": "16:10",
+         "arrival_min": 970,
+         "departure_min": 970
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "double"
+        },
+        {
+         "track_layout": "single"
+        }
+       ]
+      },
+      {
+       "id": "TER 885615",
+       "number": "885615",
+       "brand": "TER",
+       "stops": [
+        {
+         "uic": "87747006",
+         "name": "Grenoble",
+         "lat": 45.191491,
+         "lon": 5.714548,
+         "arrival": "16:07",
+         "departure": "16:07",
+         "arrival_min": 967,
+         "departure_min": 967
+        },
+        {
+         "uic": "87752899",
+         "name": "Pont-de-Claix l'Étoile",
+         "lat": 45.13748,
+         "lon": 5.70258,
+         "arrival": "16:13",
+         "departure": "16:14",
+         "arrival_min": 973,
+         "departure_min": 974
+        },
+        {
+         "uic": "87747535",
+         "name": "Jarrie - Vizille",
+         "lat": 45.085439,
+         "lon": 5.742357,
+         "arrival": "16:20",
+         "departure": "16:21",
+         "arrival_min": 980,
+         "departure_min": 981
+        },
+        {
+         "uic": "87747568",
+         "name": "Saint-Georges-de-Commiers",
+         "lat": 45.043767,
+         "lon": 5.701787,
+         "arrival": "16:26",
+         "departure": "16:27",
+         "arrival_min": 986,
+         "departure_min": 987
+        },
+        {
+         "uic": "87747576",
+         "name": "Vif",
+         "lat": 45.047669,
+         "lon": 5.685425,
+         "arrival": "16:29",
+         "departure": "16:30",
+         "arrival_min": 989,
+         "departure_min": 990
+        },
+        {
+         "uic": "87747592",
+         "name": "Monestier-de-Clermont",
+         "lat": 44.912002,
+         "lon": 5.633977,
+         "arrival": "16:52",
+         "departure": "16:53",
+         "arrival_min": 1012,
+         "departure_min": 1013
+        },
+        {
+         "uic": "87747626",
+         "name": "Clelles - Mens",
+         "lat": 44.827269,
+         "lon": 5.605028,
+         "arrival": "17:08",
+         "departure": "17:09",
+         "arrival_min": 1028,
+         "departure_min": 1029
+        },
+        {
+         "uic": "87747667",
+         "name": "Lus-la-Croix-Haute",
+         "lat": 44.671073,
+         "lon": 5.697382,
+         "arrival": "17:40",
+         "departure": "17:41",
+         "arrival_min": 1060,
+         "departure_min": 1061
+        },
+        {
+         "uic": "87763250",
+         "name": "Aspres-sur-Buëch",
+         "lat": 44.519423,
+         "lon": 5.754559,
+         "arrival": "18:09",
+         "departure": "18:10",
+         "arrival_min": 1089,
+         "departure_min": 1090
+        },
+        {
+         "uic": "87763300",
+         "name": "Veynes Dévoluy",
+         "lat": 44.532019,
+         "lon": 5.815807,
+         "arrival": "18:18",
+         "departure": "18:19",
+         "arrival_min": 1098,
+         "departure_min": 1099
+        },
+        {
+         "uic": "87763003",
+         "name": "Gap",
+         "lat": 44.563714,
+         "lon": 6.085669,
+         "arrival": "18:39",
+         "departure": "18:39",
+         "arrival_min": 1119,
+         "departure_min": 1119
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "double"
+        },
+        {
+         "track_layout": "single"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "paris-lille",
+     "label": "Paris → Lille (high-speed TGV)",
+     "label_fr": "Paris → Lille (TGV, grande vitesse)",
+     "origin": "87271007",
+     "destination": "87286005",
+     "line_type": "TGV",
+     "line_name": "LGV Nord (high-speed line), 323 km",
+     "line_name_fr": "LGV Nord (ligne à grande vitesse), 323 km",
+     "track_layout": "double",
+     "track_note": "Double track over the whole high-speed line.",
+     "track_note_fr": "Double voie sur toute la ligne à grande vitesse.",
+     "sources": [
+      {
+       "title": "LGV Nord - Wikipedia (infobox: 'Nombre de voies: Double voie')",
+       "url": "https://fr.wikipedia.org/wiki/LGV_Nord"
+      }
+     ],
+     "trains": [
+      {
+       "id": "TGV INOUI 7001",
+       "number": "7001",
+       "brand": "TGV INOUI",
+       "stops": [
+        {
+         "uic": "87271007",
+         "name": "Paris Gare du Nord",
+         "lat": 48.880136,
+         "lon": 2.354851,
+         "arrival": "06:44",
+         "departure": "06:44",
+         "arrival_min": 404,
+         "departure_min": 404
+        },
+        {
+         "uic": "87286005",
+         "name": "Lille Flandres",
+         "lat": 50.636577,
+         "lon": 3.06987,
+         "arrival": "07:48",
+         "departure": "07:48",
+         "arrival_min": 468,
+         "departure_min": 468
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        }
+       ]
+      },
+      {
+       "id": "TGV INOUI 7007",
+       "number": "7007",
+       "brand": "TGV INOUI",
+       "stops": [
+        {
+         "uic": "87271007",
+         "name": "Paris Gare du Nord",
+         "lat": 48.880136,
+         "lon": 2.354851,
+         "arrival": "07:44",
+         "departure": "07:44",
+         "arrival_min": 464,
+         "departure_min": 464
+        },
+        {
+         "uic": "87286005",
+         "name": "Lille Flandres",
+         "lat": 50.636577,
+         "lon": 3.06987,
+         "arrival": "08:48",
+         "departure": "08:48",
+         "arrival_min": 528,
+         "departure_min": 528
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        }
+       ]
+      },
+      {
+       "id": "TGV INOUI 7011",
+       "number": "7011",
+       "brand": "TGV INOUI",
+       "stops": [
+        {
+         "uic": "87271007",
+         "name": "Paris Gare du Nord",
+         "lat": 48.880136,
+         "lon": 2.354851,
+         "arrival": "08:14",
+         "departure": "08:14",
+         "arrival_min": 494,
+         "departure_min": 494
+        },
+        {
+         "uic": "87286005",
+         "name": "Lille Flandres",
+         "lat": 50.636577,
+         "lon": 3.06987,
+         "arrival": "09:18",
+         "departure": "09:18",
+         "arrival_min": 558,
+         "departure_min": 558
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        }
+       ]
+      },
+      {
+       "id": "TGV INOUI 7015",
+       "number": "7015",
+       "brand": "TGV INOUI",
+       "stops": [
+        {
+         "uic": "87271007",
+         "name": "Paris Gare du Nord",
+         "lat": 48.880136,
+         "lon": 2.354851,
+         "arrival": "08:43",
+         "departure": "08:43",
+         "arrival_min": 523,
+         "departure_min": 523
+        },
+        {
+         "uic": "87286005",
+         "name": "Lille Flandres",
+         "lat": 50.636577,
+         "lon": 3.06987,
+         "arrival": "09:48",
+         "departure": "09:48",
+         "arrival_min": 588,
+         "departure_min": 588
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        }
+       ]
+      },
+      {
+       "id": "TGV INOUI 7025",
+       "number": "7025",
+       "brand": "TGV INOUI",
+       "stops": [
+        {
+         "uic": "87271007",
+         "name": "Paris Gare du Nord",
+         "lat": 48.880136,
+         "lon": 2.354851,
+         "arrival": "10:15",
+         "departure": "10:15",
+         "arrival_min": 615,
+         "departure_min": 615
+        },
+        {
+         "uic": "87286005",
+         "name": "Lille Flandres",
+         "lat": 50.636577,
+         "lon": 3.06987,
+         "arrival": "11:19",
+         "departure": "11:19",
+         "arrival_min": 679,
+         "departure_min": 679
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        }
+       ]
+      },
+      {
+       "id": "TGV INOUI 7037",
+       "number": "7037",
+       "brand": "TGV INOUI",
+       "stops": [
+        {
+         "uic": "87271007",
+         "name": "Paris Gare du Nord",
+         "lat": 48.880136,
+         "lon": 2.354851,
+         "arrival": "13:13",
+         "departure": "13:13",
+         "arrival_min": 793,
+         "departure_min": 793
+        },
+        {
+         "uic": "87286005",
+         "name": "Lille Flandres",
+         "lat": 50.636577,
+         "lon": 3.06987,
+         "arrival": "14:18",
+         "departure": "14:18",
+         "arrival_min": 858,
+         "departure_min": 858
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        }
+       ]
+      },
+      {
+       "id": "TGV INOUI 7047",
+       "number": "7047",
+       "brand": "TGV INOUI",
+       "stops": [
+        {
+         "uic": "87271007",
+         "name": "Paris Gare du Nord",
+         "lat": 48.880136,
+         "lon": 2.354851,
+         "arrival": "15:43",
+         "departure": "15:43",
+         "arrival_min": 943,
+         "departure_min": 943
+        },
+        {
+         "uic": "87286005",
+         "name": "Lille Flandres",
+         "lat": 50.636577,
+         "lon": 3.06987,
+         "arrival": "16:48",
+         "departure": "16:48",
+         "arrival_min": 1008,
+         "departure_min": 1008
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        }
+       ]
+      },
+      {
+       "id": "TGV INOUI 7053",
+       "number": "7053",
+       "brand": "TGV INOUI",
+       "stops": [
+        {
+         "uic": "87271007",
+         "name": "Paris Gare du Nord",
+         "lat": 48.880136,
+         "lon": 2.354851,
+         "arrival": "16:43",
+         "departure": "16:43",
+         "arrival_min": 1003,
+         "departure_min": 1003
+        },
+        {
+         "uic": "87286005",
+         "name": "Lille Flandres",
+         "lat": 50.636577,
+         "lon": 3.06987,
+         "arrival": "17:48",
+         "departure": "17:48",
+         "arrival_min": 1068,
+         "departure_min": 1068
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        }
+       ]
+      },
+      {
+       "id": "TGV INOUI 7057",
+       "number": "7057",
+       "brand": "TGV INOUI",
+       "stops": [
+        {
+         "uic": "87271007",
+         "name": "Paris Gare du Nord",
+         "lat": 48.880136,
+         "lon": 2.354851,
+         "arrival": "17:14",
+         "departure": "17:14",
+         "arrival_min": 1034,
+         "departure_min": 1034
+        },
+        {
+         "uic": "87286005",
+         "name": "Lille Flandres",
+         "lat": 50.636577,
+         "lon": 3.06987,
+         "arrival": "18:18",
+         "departure": "18:18",
+         "arrival_min": 1098,
+         "departure_min": 1098
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        }
+       ]
+      },
+      {
+       "id": "TGV INOUI 7061",
+       "number": "7061",
+       "brand": "TGV INOUI",
+       "stops": [
+        {
+         "uic": "87271007",
+         "name": "Paris Gare du Nord",
+         "lat": 48.880136,
+         "lon": 2.354851,
+         "arrival": "17:44",
+         "departure": "17:44",
+         "arrival_min": 1064,
+         "departure_min": 1064
+        },
+        {
+         "uic": "87286005",
+         "name": "Lille Flandres",
+         "lat": 50.636577,
+         "lon": 3.06987,
+         "arrival": "18:48",
+         "departure": "18:48",
+         "arrival_min": 1128,
+         "departure_min": 1128
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        }
+       ]
+      },
+      {
+       "id": "TGV INOUI 7065",
+       "number": "7065",
+       "brand": "TGV INOUI",
+       "stops": [
+        {
+         "uic": "87271007",
+         "name": "Paris Gare du Nord",
+         "lat": 48.880136,
+         "lon": 2.354851,
+         "arrival": "18:14",
+         "departure": "18:14",
+         "arrival_min": 1094,
+         "departure_min": 1094
+        },
+        {
+         "uic": "87286005",
+         "name": "Lille Flandres",
+         "lat": 50.636577,
+         "lon": 3.06987,
+         "arrival": "19:18",
+         "departure": "19:18",
+         "arrival_min": 1158,
+         "departure_min": 1158
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        }
+       ]
+      },
+      {
+       "id": "TGV INOUI 7069",
+       "number": "7069",
+       "brand": "TGV INOUI",
+       "stops": [
+        {
+         "uic": "87271007",
+         "name": "Paris Gare du Nord",
+         "lat": 48.880136,
+         "lon": 2.354851,
+         "arrival": "18:44",
+         "departure": "18:44",
+         "arrival_min": 1124,
+         "departure_min": 1124
+        },
+        {
+         "uic": "87286005",
+         "name": "Lille Flandres",
+         "lat": 50.636577,
+         "lon": 3.06987,
+         "arrival": "19:48",
+         "departure": "19:48",
+         "arrival_min": 1188,
+         "departure_min": 1188
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        }
+       ]
+      },
+      {
+       "id": "TGV INOUI 7077",
+       "number": "7077",
+       "brand": "TGV INOUI",
+       "stops": [
+        {
+         "uic": "87271007",
+         "name": "Paris Gare du Nord",
+         "lat": 48.880136,
+         "lon": 2.354851,
+         "arrival": "19:44",
+         "departure": "19:44",
+         "arrival_min": 1184,
+         "departure_min": 1184
+        },
+        {
+         "uic": "87286005",
+         "name": "Lille Flandres",
+         "lat": 50.636577,
+         "lon": 3.06987,
+         "arrival": "20:48",
+         "departure": "20:48",
+         "arrival_min": 1248,
+         "departure_min": 1248
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        }
+       ]
+      },
+      {
+       "id": "TGV INOUI 7297",
+       "number": "7297",
+       "brand": "TGV INOUI",
+       "stops": [
+        {
+         "uic": "87271007",
+         "name": "Paris Gare du Nord",
+         "lat": 48.880136,
+         "lon": 2.354851,
+         "arrival": "21:30",
+         "departure": "21:30",
+         "arrival_min": 1290,
+         "departure_min": 1290
+        },
+        {
+         "uic": "87342014",
+         "name": "Arras",
+         "lat": 50.286971,
+         "lon": 2.781314,
+         "arrival": "22:21",
+         "departure": "22:24",
+         "arrival_min": 1341,
+         "departure_min": 1344
+        },
+        {
+         "uic": "87286005",
+         "name": "Lille Flandres",
+         "lat": 50.636577,
+         "lon": 3.06987,
+         "arrival": "22:46",
+         "departure": "23:02",
+         "arrival_min": 1366,
+         "departure_min": 1382
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        },
+        {
+         "track_layout": "double"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-12-12",
+   "day_type": "weekend",
+   "itineraries": [
+    {
+     "id": "paris-lyon",
+     "label": "Paris → Lyon (high-speed TGV)",
+     "label_fr": "Paris → Lyon (TGV, grande vitesse)",
+     "origin": "87686006",
+     "destination": "87723197",
+     "line_type": "TGV",
+     "line_name": "LGV Sud-Est (high-speed line), 409 km",
+     "line_name_fr": "LGV Sud-Est (ligne à grande vitesse), 409 km",
+     "track_layout": "double",
+     "track_note": "Double track over the whole high-speed line.",
+     "track_note_fr": "Double voie sur toute la ligne à grande vitesse.",
+     "sources": [
+      {
+       "title": "LGV Sud-Est - Wikipedia (infobox: 'Nombre de voies: Double voie')",
+       "url": "https://fr.wikipedia.org/wiki/LGV_Sud-Est"
+      }
+     ],
+     "trains": [
+      {
+       "id": "TGV INOUI 6603",
+       "number": "6603",
+       "brand": "TGV INOUI",
+       "stops": [
+        {
+         "uic": "87686006",
+         "name": "Paris Gare de Lyon Hall 1 - 2",
+         "lat": 48.844945,
+         "lon": 2.373481,
+         "arrival": "07:00",
+         "departure": "07:00",
+         "arrival_min": 420,
+         "departure_min": 420
+        },
+        {
+         "uic": "87723197",
+         "name": "Lyon Part Dieu",
+         "lat": 45.760596,
+         "lon": 4.859409,
+         "arrival": "08:56",
+         "departure": "09:02",
+         "arrival_min": 536,
+         "departure_min": 542
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        }
+       ]
+      },
+      {
+       "id": "TGV INOUI 6605",
+       "number": "6605",
+       "brand": "TGV INOUI",
+       "stops": [
+        {
+         "uic": "87686006",
+         "name": "Paris Gare de Lyon Hall 1 - 2",
+         "lat": 48.844945,
+         "lon": 2.373481,
+         "arrival": "07:52",
+         "departure": "07:52",
+         "arrival_min": 472,
+         "departure_min": 472
+        },
+        {
+         "uic": "87694109",
+         "name": "Le Creusot-TGV",
+         "lat": 46.765339,
+         "lon": 4.49943,
+         "arrival": "09:12",
+         "departure": "09:15",
+         "arrival_min": 552,
+         "departure_min": 555
+        },
+        {
+         "uic": "87723197",
+         "name": "Lyon Part Dieu",
+         "lat": 45.760596,
+         "lon": 4.859409,
+         "arrival": "09:56",
+         "departure": "10:02",
+         "arrival_min": 596,
+         "departure_min": 602
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        },
+        {
+         "track_layout": "double"
+        }
+       ]
+      },
+      {
+       "id": "TGV INOUI 6681",
+       "number": "6681",
+       "brand": "TGV INOUI",
+       "stops": [
+        {
+         "uic": "87686006",
+         "name": "Paris Gare de Lyon Hall 1 - 2",
+         "lat": 48.844945,
+         "lon": 2.373481,
+         "arrival": "07:52",
+         "departure": "07:52",
+         "arrival_min": 472,
+         "departure_min": 472
+        },
+        {
+         "uic": "87694109",
+         "name": "Le Creusot-TGV",
+         "lat": 46.765339,
+         "lon": 4.49943,
+         "arrival": "09:12",
+         "departure": "09:15",
+         "arrival_min": 552,
+         "departure_min": 555
+        },
+        {
+         "uic": "87723197",
+         "name": "Lyon Part Dieu",
+         "lat": 45.760596,
+         "lon": 4.859409,
+         "arrival": "09:56",
+         "departure": "10:06",
+         "arrival_min": 596,
+         "departure_min": 606
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        },
+        {
+         "track_layout": "double"
+        }
+       ]
+      },
+      {
+       "id": "TGV INOUI 6607",
+       "number": "6607",
+       "brand": "TGV INOUI",
+       "stops": [
+        {
+         "uic": "87686006",
+         "name": "Paris Gare de Lyon Hall 1 - 2",
+         "lat": 48.844945,
+         "lon": 2.373481,
+         "arrival": "09:00",
+         "departure": "09:00",
+         "arrival_min": 540,
+         "departure_min": 540
+        },
+        {
+         "uic": "87723197",
+         "name": "Lyon Part Dieu",
+         "lat": 45.760596,
+         "lon": 4.859409,
+         "arrival": "10:56",
+         "departure": "11:02",
+         "arrival_min": 656,
+         "departure_min": 662
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        }
+       ]
+      },
+      {
+       "id": "TGV INOUI 6609",
+       "number": "6609",
+       "brand": "TGV INOUI",
+       "stops": [
+        {
+         "uic": "87686006",
+         "name": "Paris Gare de Lyon Hall 1 - 2",
+         "lat": 48.844945,
+         "lon": 2.373481,
+         "arrival": "10:00",
+         "departure": "10:00",
+         "arrival_min": 600,
+         "departure_min": 600
+        },
+        {
+         "uic": "87723197",
+         "name": "Lyon Part Dieu",
+         "lat": 45.760596,
+         "lon": 4.859409,
+         "arrival": "11:56",
+         "departure": "12:02",
+         "arrival_min": 716,
+         "departure_min": 722
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        }
+       ]
+      },
+      {
+       "id": "TGV INOUI 6611",
+       "number": "6611",
+       "brand": "TGV INOUI",
+       "stops": [
+        {
+         "uic": "87686006",
+         "name": "Paris Gare de Lyon Hall 1 - 2",
+         "lat": 48.844945,
+         "lon": 2.373481,
+         "arrival": "11:00",
+         "departure": "11:00",
+         "arrival_min": 660,
+         "departure_min": 660
+        },
+        {
+         "uic": "87723197",
+         "name": "Lyon Part Dieu",
+         "lat": 45.760596,
+         "lon": 4.859409,
+         "arrival": "12:56",
+         "departure": "13:02",
+         "arrival_min": 776,
+         "departure_min": 782
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        }
+       ]
+      },
+      {
+       "id": "TGV INOUI 6613",
+       "number": "6613",
+       "brand": "TGV INOUI",
+       "stops": [
+        {
+         "uic": "87686006",
+         "name": "Paris Gare de Lyon Hall 1 - 2",
+         "lat": 48.844945,
+         "lon": 2.373481,
+         "arrival": "11:52",
+         "departure": "11:52",
+         "arrival_min": 712,
+         "departure_min": 712
+        },
+        {
+         "uic": "87694109",
+         "name": "Le Creusot-TGV",
+         "lat": 46.765339,
+         "lon": 4.49943,
+         "arrival": "13:12",
+         "departure": "13:15",
+         "arrival_min": 792,
+         "departure_min": 795
+        },
+        {
+         "uic": "87723197",
+         "name": "Lyon Part Dieu",
+         "lat": 45.760596,
+         "lon": 4.859409,
+         "arrival": "13:56",
+         "departure": "14:02",
+         "arrival_min": 836,
+         "departure_min": 842
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        },
+        {
+         "track_layout": "double"
+        }
+       ]
+      },
+      {
+       "id": "OUIGO 7803",
+       "number": "7803",
+       "brand": "OUIGO",
+       "stops": [
+        {
+         "uic": "87686006",
+         "name": "Paris Gare de Lyon Hall 1 - 2",
+         "lat": 48.844945,
+         "lon": 2.373481,
+         "arrival": "12:26",
+         "departure": "12:26",
+         "arrival_min": 746,
+         "departure_min": 746
+        },
+        {
+         "uic": "87723197",
+         "name": "Lyon Part Dieu",
+         "lat": 45.760596,
+         "lon": 4.859409,
+         "arrival": "14:22",
+         "departure": "14:28",
+         "arrival_min": 862,
+         "departure_min": 868
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        }
+       ]
+      },
+      {
+       "id": "TGV INOUI 6615",
+       "number": "6615",
+       "brand": "TGV INOUI",
+       "stops": [
+        {
+         "uic": "87686006",
+         "name": "Paris Gare de Lyon Hall 1 - 2",
+         "lat": 48.844945,
+         "lon": 2.373481,
+         "arrival": "12:52",
+         "departure": "12:52",
+         "arrival_min": 772,
+         "departure_min": 772
+        },
+        {
+         "uic": "87723197",
+         "name": "Lyon Part Dieu",
+         "lat": 45.760596,
+         "lon": 4.859409,
+         "arrival": "14:56",
+         "departure": "15:02",
+         "arrival_min": 896,
+         "departure_min": 902
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        }
+       ]
+      },
+      {
+       "id": "TGV INOUI 6685",
+       "number": "6685",
+       "brand": "TGV INOUI",
+       "stops": [
+        {
+         "uic": "87686006",
+         "name": "Paris Gare de Lyon Hall 1 - 2",
+         "lat": 48.844945,
+         "lon": 2.373481,
+         "arrival": "12:52",
+         "departure": "12:52",
+         "arrival_min": 772,
+         "departure_min": 772
+        },
+        {
+         "uic": "87723197",
+         "name": "Lyon Part Dieu",
+         "lat": 45.760596,
+         "lon": 4.859409,
+         "arrival": "14:56",
+         "departure": "15:06",
+         "arrival_min": 896,
+         "departure_min": 906
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        }
+       ]
+      },
+      {
+       "id": "TGV INOUI 6617",
+       "number": "6617",
+       "brand": "TGV INOUI",
+       "stops": [
+        {
+         "uic": "87686006",
+         "name": "Paris Gare de Lyon Hall 1 - 2",
+         "lat": 48.844945,
+         "lon": 2.373481,
+         "arrival": "13:52",
+         "departure": "13:52",
+         "arrival_min": 832,
+         "departure_min": 832
+        },
+        {
+         "uic": "87694109",
+         "name": "Le Creusot-TGV",
+         "lat": 46.765339,
+         "lon": 4.49943,
+         "arrival": "15:12",
+         "departure": "15:15",
+         "arrival_min": 912,
+         "departure_min": 915
+        },
+        {
+         "uic": "87723197",
+         "name": "Lyon Part Dieu",
+         "lat": 45.760596,
+         "lon": 4.859409,
+         "arrival": "15:56",
+         "departure": "16:02",
+         "arrival_min": 956,
+         "departure_min": 962
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        },
+        {
+         "track_layout": "double"
+        }
+       ]
+      },
+      {
+       "id": "TGV INOUI 6619",
+       "number": "6619",
+       "brand": "TGV INOUI",
+       "stops": [
+        {
+         "uic": "87686006",
+         "name": "Paris Gare de Lyon Hall 1 - 2",
+         "lat": 48.844945,
+         "lon": 2.373481,
+         "arrival": "15:00",
+         "departure": "15:00",
+         "arrival_min": 900,
+         "departure_min": 900
+        },
+        {
+         "uic": "87723197",
+         "name": "Lyon Part Dieu",
+         "lat": 45.760596,
+         "lon": 4.859409,
+         "arrival": "16:56",
+         "departure": "17:02",
+         "arrival_min": 1016,
+         "departure_min": 1022
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        }
+       ]
+      },
+      {
+       "id": "TGV INOUI 6621",
+       "number": "6621",
+       "brand": "TGV INOUI",
+       "stops": [
+        {
+         "uic": "87686006",
+         "name": "Paris Gare de Lyon Hall 1 - 2",
+         "lat": 48.844945,
+         "lon": 2.373481,
+         "arrival": "15:52",
+         "departure": "15:52",
+         "arrival_min": 952,
+         "departure_min": 952
+        },
+        {
+         "uic": "87694109",
+         "name": "Le Creusot-TGV",
+         "lat": 46.765339,
+         "lon": 4.49943,
+         "arrival": "17:12",
+         "departure": "17:15",
+         "arrival_min": 1032,
+         "departure_min": 1035
+        },
+        {
+         "uic": "87725705",
+         "name": "Mâcon - Loché TGV",
+         "lat": 46.282912,
+         "lon": 4.778924,
+         "arrival": "17:33",
+         "departure": "17:36",
+         "arrival_min": 1053,
+         "departure_min": 1056
+        },
+        {
+         "uic": "87723197",
+         "name": "Lyon Part Dieu",
+         "lat": 45.760596,
+         "lon": 4.859409,
+         "arrival": "18:00",
+         "departure": "18:06",
+         "arrival_min": 1080,
+         "departure_min": 1086
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        },
+        {
+         "track_layout": "double"
+        },
+        {
+         "track_layout": "double"
+        }
+       ]
+      },
+      {
+       "id": "TGV INOUI 6623",
+       "number": "6623",
+       "brand": "TGV INOUI",
+       "stops": [
+        {
+         "uic": "87686006",
+         "name": "Paris Gare de Lyon Hall 1 - 2",
+         "lat": 48.844945,
+         "lon": 2.373481,
+         "arrival": "17:00",
+         "departure": "17:00",
+         "arrival_min": 1020,
+         "departure_min": 1020
+        },
+        {
+         "uic": "87723197",
+         "name": "Lyon Part Dieu",
+         "lat": 45.760596,
+         "lon": 4.859409,
+         "arrival": "18:56",
+         "departure": "19:02",
+         "arrival_min": 1136,
+         "departure_min": 1142
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        }
+       ]
+      },
+      {
+       "id": "TGV INOUI 6687",
+       "number": "6687",
+       "brand": "TGV INOUI",
+       "stops": [
+        {
+         "uic": "87686006",
+         "name": "Paris Gare de Lyon Hall 1 - 2",
+         "lat": 48.844945,
+         "lon": 2.373481,
+         "arrival": "17:00",
+         "departure": "17:00",
+         "arrival_min": 1020,
+         "departure_min": 1020
+        },
+        {
+         "uic": "87723197",
+         "name": "Lyon Part Dieu",
+         "lat": 45.760596,
+         "lon": 4.859409,
+         "arrival": "18:56",
+         "departure": "19:06",
+         "arrival_min": 1136,
+         "departure_min": 1146
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        }
+       ]
+      },
+      {
+       "id": "TGV INOUI 6627",
+       "number": "6627",
+       "brand": "TGV INOUI",
+       "stops": [
+        {
+         "uic": "87686006",
+         "name": "Paris Gare de Lyon Hall 1 - 2",
+         "lat": 48.844945,
+         "lon": 2.373481,
+         "arrival": "17:52",
+         "departure": "17:52",
+         "arrival_min": 1072,
+         "departure_min": 1072
+        },
+        {
+         "uic": "87694109",
+         "name": "Le Creusot-TGV",
+         "lat": 46.765339,
+         "lon": 4.49943,
+         "arrival": "19:12",
+         "departure": "19:15",
+         "arrival_min": 1152,
+         "departure_min": 1155
+        },
+        {
+         "uic": "87723197",
+         "name": "Lyon Part Dieu",
+         "lat": 45.760596,
+         "lon": 4.859409,
+         "arrival": "19:54",
+         "departure": "20:02",
+         "arrival_min": 1194,
+         "departure_min": 1202
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        },
+        {
+         "track_layout": "double"
+        }
+       ]
+      },
+      {
+       "id": "TGV INOUI 6629",
+       "number": "6629",
+       "brand": "TGV INOUI",
+       "stops": [
+        {
+         "uic": "87686006",
+         "name": "Paris Gare de Lyon Hall 1 - 2",
+         "lat": 48.844945,
+         "lon": 2.373481,
+         "arrival": "19:00",
+         "departure": "19:00",
+         "arrival_min": 1140,
+         "departure_min": 1140
+        },
+        {
+         "uic": "87723197",
+         "name": "Lyon Part Dieu",
+         "lat": 45.760596,
+         "lon": 4.859409,
+         "arrival": "20:56",
+         "departure": "21:11",
+         "arrival_min": 1256,
+         "departure_min": 1271
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        }
+       ]
+      },
+      {
+       "id": "TGV INOUI 6689",
+       "number": "6689",
+       "brand": "TGV INOUI",
+       "stops": [
+        {
+         "uic": "87686006",
+         "name": "Paris Gare de Lyon Hall 1 - 2",
+         "lat": 48.844945,
+         "lon": 2.373481,
+         "arrival": "19:00",
+         "departure": "19:00",
+         "arrival_min": 1140,
+         "departure_min": 1140
+        },
+        {
+         "uic": "87723197",
+         "name": "Lyon Part Dieu",
+         "lat": 45.760596,
+         "lon": 4.859409,
+         "arrival": "20:56",
+         "departure": "21:06",
+         "arrival_min": 1256,
+         "departure_min": 1266
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        }
+       ]
+      },
+      {
+       "id": "OUIGO 7805",
+       "number": "7805",
+       "brand": "OUIGO",
+       "stops": [
+        {
+         "uic": "87686006",
+         "name": "Paris Gare de Lyon Hall 1 - 2",
+         "lat": 48.844945,
+         "lon": 2.373481,
+         "arrival": "19:26",
+         "departure": "19:26",
+         "arrival_min": 1166,
+         "departure_min": 1166
+        },
+        {
+         "uic": "87723197",
+         "name": "Lyon Part Dieu",
+         "lat": 45.760596,
+         "lon": 4.859409,
+         "arrival": "21:22",
+         "departure": "21:28",
+         "arrival_min": 1282,
+         "departure_min": 1288
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        }
+       ]
+      }
+     ],
+     "connection": {
+      "station": "87723197",
+      "to": "87747006",
+      "label": "Grenoble",
+      "line_name": "Lyon - Grenoble (double track)",
+      "station_name": "Lyon Part Dieu",
+      "to_name": "Grenoble",
+      "trains": [
+       {
+        "id": "TER 17601",
+        "departure": "06:16",
+        "departure_min": 376,
+        "arrival": "07:39"
+       },
+       {
+        "id": "TER 17605",
+        "departure": "07:16",
+        "departure_min": 436,
+        "arrival": "08:39"
+       },
+       {
+        "id": "TER 17609",
+        "departure": "08:16",
+        "departure_min": 496,
+        "arrival": "09:39"
+       },
+       {
+        "id": "TER 17611",
+        "departure": "09:16",
+        "departure_min": 556,
+        "arrival": "10:39"
+       },
+       {
+        "id": "TER 17613",
+        "departure": "10:16",
+        "departure_min": 616,
+        "arrival": "11:39"
+       },
+       {
+        "id": "TER 17615",
+        "departure": "11:16",
+        "departure_min": 676,
+        "arrival": "12:39"
+       },
+       {
+        "id": "TER 17617",
+        "departure": "12:16",
+        "departure_min": 736,
+        "arrival": "13:39"
+       },
+       {
+        "id": "TER 17619",
+        "departure": "13:16",
+        "departure_min": 796,
+        "arrival": "14:39"
+       },
+       {
+        "id": "TER 17621",
+        "departure": "14:16",
+        "departure_min": 856,
+        "arrival": "15:39"
+       },
+       {
+        "id": "TER 17623",
+        "departure": "15:16",
+        "departure_min": 916,
+        "arrival": "16:39"
+       },
+       {
+        "id": "TER 17625",
+        "departure": "16:16",
+        "departure_min": 976,
+        "arrival": "17:39"
+       },
+       {
+        "id": "TER 17629",
+        "departure": "17:16",
+        "departure_min": 1036,
+        "arrival": "18:39"
+       },
+       {
+        "id": "TER 17633",
+        "departure": "18:16",
+        "departure_min": 1096,
+        "arrival": "19:39"
+       },
+       {
+        "id": "TER 17637",
+        "departure": "19:16",
+        "departure_min": 1156,
+        "arrival": "20:39"
+       },
+       {
+        "id": "TER 17641",
+        "departure": "20:16",
+        "departure_min": 1216,
+        "arrival": "21:39"
+       },
+       {
+        "id": "TER 17643",
+        "departure": "21:16",
+        "departure_min": 1276,
+        "arrival": "22:39"
+       }
+      ]
+     }
+    },
+    {
+     "id": "grenoble-gap",
+     "label": "Grenoble → Gap (mountain TER, single track)",
+     "label_fr": "Grenoble → Gap (TER de montagne, voie unique)",
+     "origin": "87747006",
+     "destination": "87763003",
+     "line_type": "TER",
+     "line_name": "Ligne des Alpes (Grenoble - Veynes), then Veynes - Briançon line",
+     "line_name_fr": "Ligne des Alpes (Grenoble - Veynes), puis ligne Veynes - Briançon",
+     "track_layout": "single",
+     "track_note": "Single track for almost 100 km after Grenoble, back to double only for the last few km before Veynes; single track again from Veynes to Gap.",
+     "track_note_fr": "Voie unique sur près de 100 km après Grenoble, double voie seulement sur les derniers kilomètres avant Veynes, puis de nouveau voie unique de Veynes à Gap.",
+     "sources": [
+      {
+       "title": "Ligne de Lyon-Perrache à Marseille-Saint-Charles (via Grenoble) - Wikipedia, section 'Tracé' (citing SNCF technical documents RT 5076)",
+       "url": "https://fr.wikipedia.org/wiki/Ligne_de_Lyon-Perrache_%C3%A0_Marseille-Saint-Charles_(via_Grenoble)"
+      },
+      {
+       "title": "Ligne de Veynes à Briançon - Wikipedia ('Veynes - Gap : voie unique')",
+       "url": "https://fr.wikipedia.org/wiki/Ligne_de_Veynes_%C3%A0_Brian%C3%A7on"
+      }
+     ],
+     "trains": [
+      {
+       "id": "TER 885601",
+       "number": "885601",
+       "brand": "TER",
+       "stops": [
+        {
+         "uic": "87747006",
+         "name": "Grenoble",
+         "lat": 45.191491,
+         "lon": 5.714548,
+         "arrival": "08:09",
+         "departure": "08:09",
+         "arrival_min": 489,
+         "departure_min": 489
+        },
+        {
+         "uic": "87752899",
+         "name": "Pont-de-Claix l'Étoile",
+         "lat": 45.13748,
+         "lon": 5.70258,
+         "arrival": "08:15",
+         "departure": "08:16",
+         "arrival_min": 495,
+         "departure_min": 496
+        },
+        {
+         "uic": "87747535",
+         "name": "Jarrie - Vizille",
+         "lat": 45.085439,
+         "lon": 5.742357,
+         "arrival": "08:22",
+         "departure": "08:23",
+         "arrival_min": 502,
+         "departure_min": 503
+        },
+        {
+         "uic": "87747568",
+         "name": "Saint-Georges-de-Commiers",
+         "lat": 45.043767,
+         "lon": 5.701787,
+         "arrival": "08:28",
+         "departure": "08:29",
+         "arrival_min": 508,
+         "departure_min": 509
+        },
+        {
+         "uic": "87747576",
+         "name": "Vif",
+         "lat": 45.047669,
+         "lon": 5.685425,
+         "arrival": "08:31",
+         "departure": "08:32",
+         "arrival_min": 511,
+         "departure_min": 512
+        },
+        {
+         "uic": "87747592",
+         "name": "Monestier-de-Clermont",
+         "lat": 44.912002,
+         "lon": 5.633977,
+         "arrival": "08:54",
+         "departure": "08:57",
+         "arrival_min": 534,
+         "departure_min": 537
+        },
+        {
+         "uic": "87747626",
+         "name": "Clelles - Mens",
+         "lat": 44.827269,
+         "lon": 5.605028,
+         "arrival": "09:12",
+         "departure": "09:13",
+         "arrival_min": 552,
+         "departure_min": 553
+        },
+        {
+         "uic": "87747667",
+         "name": "Lus-la-Croix-Haute",
+         "lat": 44.671073,
+         "lon": 5.697382,
+         "arrival": "09:45",
+         "departure": "09:46",
+         "arrival_min": 585,
+         "departure_min": 586
+        },
+        {
+         "uic": "87763250",
+         "name": "Aspres-sur-Buëch",
+         "lat": 44.519423,
+         "lon": 5.754559,
+         "arrival": "10:13",
+         "departure": "10:14",
+         "arrival_min": 613,
+         "departure_min": 614
+        },
+        {
+         "uic": "87763300",
+         "name": "Veynes Dévoluy",
+         "lat": 44.532019,
+         "lon": 5.815807,
+         "arrival": "10:22",
+         "departure": "10:23",
+         "arrival_min": 622,
+         "departure_min": 623
+        },
+        {
+         "uic": "87763003",
+         "name": "Gap",
+         "lat": 44.563714,
+         "lon": 6.085669,
+         "arrival": "10:43",
+         "departure": "10:43",
+         "arrival_min": 643,
+         "departure_min": 643
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "double"
+        },
+        {
+         "track_layout": "single"
+        }
+       ]
+      },
+      {
+       "id": "TER 885605",
+       "number": "885605",
+       "brand": "TER",
+       "stops": [
+        {
+         "uic": "87747006",
+         "name": "Grenoble",
+         "lat": 45.191491,
+         "lon": 5.714548,
+         "arrival": "10:20",
+         "departure": "10:20",
+         "arrival_min": 620,
+         "departure_min": 620
+        },
+        {
+         "uic": "87752899",
+         "name": "Pont-de-Claix l'Étoile",
+         "lat": 45.13748,
+         "lon": 5.70258,
+         "arrival": "10:26",
+         "departure": "10:27",
+         "arrival_min": 626,
+         "departure_min": 627
+        },
+        {
+         "uic": "87747535",
+         "name": "Jarrie - Vizille",
+         "lat": 45.085439,
+         "lon": 5.742357,
+         "arrival": "10:33",
+         "departure": "10:34",
+         "arrival_min": 633,
+         "departure_min": 634
+        },
+        {
+         "uic": "87747568",
+         "name": "Saint-Georges-de-Commiers",
+         "lat": 45.043767,
+         "lon": 5.701787,
+         "arrival": "10:39",
+         "departure": "10:40",
+         "arrival_min": 639,
+         "departure_min": 640
+        },
+        {
+         "uic": "87747576",
+         "name": "Vif",
+         "lat": 45.047669,
+         "lon": 5.685425,
+         "arrival": "10:43",
+         "departure": "10:44",
+         "arrival_min": 643,
+         "departure_min": 644
+        },
+        {
+         "uic": "87747592",
+         "name": "Monestier-de-Clermont",
+         "lat": 44.912002,
+         "lon": 5.633977,
+         "arrival": "11:04",
+         "departure": "11:05",
+         "arrival_min": 664,
+         "departure_min": 665
+        },
+        {
+         "uic": "87747626",
+         "name": "Clelles - Mens",
+         "lat": 44.827269,
+         "lon": 5.605028,
+         "arrival": "11:20",
+         "departure": "11:21",
+         "arrival_min": 680,
+         "departure_min": 681
+        },
+        {
+         "uic": "87747667",
+         "name": "Lus-la-Croix-Haute",
+         "lat": 44.671073,
+         "lon": 5.697382,
+         "arrival": "11:52",
+         "departure": "11:53",
+         "arrival_min": 712,
+         "departure_min": 713
+        },
+        {
+         "uic": "87763250",
+         "name": "Aspres-sur-Buëch",
+         "lat": 44.519423,
+         "lon": 5.754559,
+         "arrival": "12:21",
+         "departure": "12:22",
+         "arrival_min": 741,
+         "departure_min": 742
+        },
+        {
+         "uic": "87763300",
+         "name": "Veynes Dévoluy",
+         "lat": 44.532019,
+         "lon": 5.815807,
+         "arrival": "12:40",
+         "departure": "12:46",
+         "arrival_min": 760,
+         "departure_min": 766
+        },
+        {
+         "uic": "87763003",
+         "name": "Gap",
+         "lat": 44.563714,
+         "lon": 6.085669,
+         "arrival": "13:09",
+         "departure": "13:09",
+         "arrival_min": 789,
+         "departure_min": 789
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "double"
+        },
+        {
+         "track_layout": "single"
+        }
+       ]
+      },
+      {
+       "id": "TER 885611",
+       "number": "885611",
+       "brand": "TER",
+       "stops": [
+        {
+         "uic": "87747006",
+         "name": "Grenoble",
+         "lat": 45.191491,
+         "lon": 5.714548,
+         "arrival": "13:03",
+         "departure": "13:03",
+         "arrival_min": 783,
+         "departure_min": 783
+        },
+        {
+         "uic": "87752899",
+         "name": "Pont-de-Claix l'Étoile",
+         "lat": 45.13748,
+         "lon": 5.70258,
+         "arrival": "13:09",
+         "departure": "13:10",
+         "arrival_min": 789,
+         "departure_min": 790
+        },
+        {
+         "uic": "87747535",
+         "name": "Jarrie - Vizille",
+         "lat": 45.085439,
+         "lon": 5.742357,
+         "arrival": "13:16",
+         "departure": "13:17",
+         "arrival_min": 796,
+         "departure_min": 797
+        },
+        {
+         "uic": "87747568",
+         "name": "Saint-Georges-de-Commiers",
+         "lat": 45.043767,
+         "lon": 5.701787,
+         "arrival": "13:22",
+         "departure": "13:23",
+         "arrival_min": 802,
+         "departure_min": 803
+        },
+        {
+         "uic": "87747576",
+         "name": "Vif",
+         "lat": 45.047669,
+         "lon": 5.685425,
+         "arrival": "13:26",
+         "departure": "13:27",
+         "arrival_min": 806,
+         "departure_min": 807
+        },
+        {
+         "uic": "87747592",
+         "name": "Monestier-de-Clermont",
+         "lat": 44.912002,
+         "lon": 5.633977,
+         "arrival": "13:48",
+         "departure": "13:51",
+         "arrival_min": 828,
+         "departure_min": 831
+        },
+        {
+         "uic": "87747626",
+         "name": "Clelles - Mens",
+         "lat": 44.827269,
+         "lon": 5.605028,
+         "arrival": "14:06",
+         "departure": "14:08",
+         "arrival_min": 846,
+         "departure_min": 848
+        },
+        {
+         "uic": "87747667",
+         "name": "Lus-la-Croix-Haute",
+         "lat": 44.671073,
+         "lon": 5.697382,
+         "arrival": "14:42",
+         "departure": "14:49",
+         "arrival_min": 882,
+         "departure_min": 889
+        },
+        {
+         "uic": "87763250",
+         "name": "Aspres-sur-Buëch",
+         "lat": 44.519423,
+         "lon": 5.754559,
+         "arrival": "15:16",
+         "departure": "15:17",
+         "arrival_min": 916,
+         "departure_min": 917
+        },
+        {
+         "uic": "87763300",
+         "name": "Veynes Dévoluy",
+         "lat": 44.532019,
+         "lon": 5.815807,
+         "arrival": "15:25",
+         "departure": "15:26",
+         "arrival_min": 925,
+         "departure_min": 926
+        },
+        {
+         "uic": "87763003",
+         "name": "Gap",
+         "lat": 44.563714,
+         "lon": 6.085669,
+         "arrival": "15:46",
+         "departure": "15:46",
+         "arrival_min": 946,
+         "departure_min": 946
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "double"
+        },
+        {
+         "track_layout": "single"
+        }
+       ]
+      },
+      {
+       "id": "TER 885615",
+       "number": "885615",
+       "brand": "TER",
+       "stops": [
+        {
+         "uic": "87747006",
+         "name": "Grenoble",
+         "lat": 45.191491,
+         "lon": 5.714548,
+         "arrival": "15:54",
+         "departure": "15:54",
+         "arrival_min": 954,
+         "departure_min": 954
+        },
+        {
+         "uic": "87752899",
+         "name": "Pont-de-Claix l'Étoile",
+         "lat": 45.13748,
+         "lon": 5.70258,
+         "arrival": "16:00",
+         "departure": "16:01",
+         "arrival_min": 960,
+         "departure_min": 961
+        },
+        {
+         "uic": "87747535",
+         "name": "Jarrie - Vizille",
+         "lat": 45.085439,
+         "lon": 5.742357,
+         "arrival": "16:07",
+         "departure": "16:08",
+         "arrival_min": 967,
+         "departure_min": 968
+        },
+        {
+         "uic": "87747568",
+         "name": "Saint-Georges-de-Commiers",
+         "lat": 45.043767,
+         "lon": 5.701787,
+         "arrival": "16:13",
+         "departure": "16:14",
+         "arrival_min": 973,
+         "departure_min": 974
+        },
+        {
+         "uic": "87747576",
+         "name": "Vif",
+         "lat": 45.047669,
+         "lon": 5.685425,
+         "arrival": "16:16",
+         "departure": "16:17",
+         "arrival_min": 976,
+         "departure_min": 977
+        },
+        {
+         "uic": "87747592",
+         "name": "Monestier-de-Clermont",
+         "lat": 44.912002,
+         "lon": 5.633977,
+         "arrival": "16:39",
+         "departure": "16:40",
+         "arrival_min": 999,
+         "departure_min": 1000
+        },
+        {
+         "uic": "87747626",
+         "name": "Clelles - Mens",
+         "lat": 44.827269,
+         "lon": 5.605028,
+         "arrival": "16:55",
+         "departure": "16:56",
+         "arrival_min": 1015,
+         "departure_min": 1016
+        },
+        {
+         "uic": "87747667",
+         "name": "Lus-la-Croix-Haute",
+         "lat": 44.671073,
+         "lon": 5.697382,
+         "arrival": "17:27",
+         "departure": "17:28",
+         "arrival_min": 1047,
+         "departure_min": 1048
+        },
+        {
+         "uic": "87763250",
+         "name": "Aspres-sur-Buëch",
+         "lat": 44.519423,
+         "lon": 5.754559,
+         "arrival": "17:55",
+         "departure": "17:56",
+         "arrival_min": 1075,
+         "departure_min": 1076
+        },
+        {
+         "uic": "87763300",
+         "name": "Veynes Dévoluy",
+         "lat": 44.532019,
+         "lon": 5.815807,
+         "arrival": "18:04",
+         "departure": "18:05",
+         "arrival_min": 1084,
+         "departure_min": 1085
+        },
+        {
+         "uic": "87763003",
+         "name": "Gap",
+         "lat": 44.563714,
+         "lon": 6.085669,
+         "arrival": "18:25",
+         "departure": "18:25",
+         "arrival_min": 1105,
+         "departure_min": 1105
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "double"
+        },
+        {
+         "track_layout": "single"
+        }
+       ]
+      },
+      {
+       "id": "TER 885619",
+       "number": "885619",
+       "brand": "TER",
+       "stops": [
+        {
+         "uic": "87747006",
+         "name": "Grenoble",
+         "lat": 45.191491,
+         "lon": 5.714548,
+         "arrival": "18:09",
+         "departure": "18:09",
+         "arrival_min": 1089,
+         "departure_min": 1089
+        },
+        {
+         "uic": "87752899",
+         "name": "Pont-de-Claix l'Étoile",
+         "lat": 45.13748,
+         "lon": 5.70258,
+         "arrival": "18:16",
+         "departure": "18:17",
+         "arrival_min": 1096,
+         "departure_min": 1097
+        },
+        {
+         "uic": "87747535",
+         "name": "Jarrie - Vizille",
+         "lat": 45.085439,
+         "lon": 5.742357,
+         "arrival": "18:24",
+         "departure": "18:25",
+         "arrival_min": 1104,
+         "departure_min": 1105
+        },
+        {
+         "uic": "87747568",
+         "name": "Saint-Georges-de-Commiers",
+         "lat": 45.043767,
+         "lon": 5.701787,
+         "arrival": "18:31",
+         "departure": "18:32",
+         "arrival_min": 1111,
+         "departure_min": 1112
+        },
+        {
+         "uic": "87747576",
+         "name": "Vif",
+         "lat": 45.047669,
+         "lon": 5.685425,
+         "arrival": "18:34",
+         "departure": "18:35",
+         "arrival_min": 1114,
+         "departure_min": 1115
+        },
+        {
+         "uic": "87747592",
+         "name": "Monestier-de-Clermont",
+         "lat": 44.912002,
+         "lon": 5.633977,
+         "arrival": "18:57",
+         "departure": "18:58",
+         "arrival_min": 1137,
+         "departure_min": 1138
+        },
+        {
+         "uic": "87747626",
+         "name": "Clelles - Mens",
+         "lat": 44.827269,
+         "lon": 5.605028,
+         "arrival": "19:13",
+         "departure": "19:19",
+         "arrival_min": 1153,
+         "departure_min": 1159
+        },
+        {
+         "uic": "87747667",
+         "name": "Lus-la-Croix-Haute",
+         "lat": 44.671073,
+         "lon": 5.697382,
+         "arrival": "19:53",
+         "departure": "19:54",
+         "arrival_min": 1193,
+         "departure_min": 1194
+        },
+        {
+         "uic": "87763250",
+         "name": "Aspres-sur-Buëch",
+         "lat": 44.519423,
+         "lon": 5.754559,
+         "arrival": "20:21",
+         "departure": "20:23",
+         "arrival_min": 1221,
+         "departure_min": 1223
+        },
+        {
+         "uic": "87763300",
+         "name": "Veynes Dévoluy",
+         "lat": 44.532019,
+         "lon": 5.815807,
+         "arrival": "20:30",
+         "departure": "20:31",
+         "arrival_min": 1230,
+         "departure_min": 1231
+        },
+        {
+         "uic": "87763003",
+         "name": "Gap",
+         "lat": 44.563714,
+         "lon": 6.085669,
+         "arrival": "20:52",
+         "departure": "20:52",
+         "arrival_min": 1252,
+         "departure_min": 1252
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "single"
+        },
+        {
+         "track_layout": "double"
+        },
+        {
+         "track_layout": "single"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "paris-lille",
+     "label": "Paris → Lille (high-speed TGV)",
+     "label_fr": "Paris → Lille (TGV, grande vitesse)",
+     "origin": "87271007",
+     "destination": "87286005",
+     "line_type": "TGV",
+     "line_name": "LGV Nord (high-speed line), 323 km",
+     "line_name_fr": "LGV Nord (ligne à grande vitesse), 323 km",
+     "track_layout": "double",
+     "track_note": "Double track over the whole high-speed line.",
+     "track_note_fr": "Double voie sur toute la ligne à grande vitesse.",
+     "sources": [
+      {
+       "title": "LGV Nord - Wikipedia (infobox: 'Nombre de voies: Double voie')",
+       "url": "https://fr.wikipedia.org/wiki/LGV_Nord"
+      }
+     ],
+     "trains": [
+      {
+       "id": "TGV INOUI 7007",
+       "number": "7007",
+       "brand": "TGV INOUI",
+       "stops": [
+        {
+         "uic": "87271007",
+         "name": "Paris Gare du Nord",
+         "lat": 48.880136,
+         "lon": 2.354851,
+         "arrival": "07:44",
+         "departure": "07:44",
+         "arrival_min": 464,
+         "departure_min": 464
+        },
+        {
+         "uic": "87286005",
+         "name": "Lille Flandres",
+         "lat": 50.636577,
+         "lon": 3.06987,
+         "arrival": "08:48",
+         "departure": "08:48",
+         "arrival_min": 528,
+         "departure_min": 528
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        }
+       ]
+      },
+      {
+       "id": "TGV INOUI 7015",
+       "number": "7015",
+       "brand": "TGV INOUI",
+       "stops": [
+        {
+         "uic": "87271007",
+         "name": "Paris Gare du Nord",
+         "lat": 48.880136,
+         "lon": 2.354851,
+         "arrival": "08:43",
+         "departure": "08:43",
+         "arrival_min": 523,
+         "departure_min": 523
+        },
+        {
+         "uic": "87286005",
+         "name": "Lille Flandres",
+         "lat": 50.636577,
+         "lon": 3.06987,
+         "arrival": "09:48",
+         "departure": "09:48",
+         "arrival_min": 588,
+         "departure_min": 588
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        }
+       ]
+      },
+      {
+       "id": "TGV INOUI 7023",
+       "number": "7023",
+       "brand": "TGV INOUI",
+       "stops": [
+        {
+         "uic": "87271007",
+         "name": "Paris Gare du Nord",
+         "lat": 48.880136,
+         "lon": 2.354851,
+         "arrival": "09:42",
+         "departure": "09:42",
+         "arrival_min": 582,
+         "departure_min": 582
+        },
+        {
+         "uic": "87286005",
+         "name": "Lille Flandres",
+         "lat": 50.636577,
+         "lon": 3.06987,
+         "arrival": "10:46",
+         "departure": "10:46",
+         "arrival_min": 646,
+         "departure_min": 646
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        }
+       ]
+      },
+      {
+       "id": "TGV INOUI 7027",
+       "number": "7027",
+       "brand": "TGV INOUI",
+       "stops": [
+        {
+         "uic": "87271007",
+         "name": "Paris Gare du Nord",
+         "lat": 48.880136,
+         "lon": 2.354851,
+         "arrival": "10:44",
+         "departure": "10:44",
+         "arrival_min": 644,
+         "departure_min": 644
+        },
+        {
+         "uic": "87286005",
+         "name": "Lille Flandres",
+         "lat": 50.636577,
+         "lon": 3.06987,
+         "arrival": "11:48",
+         "departure": "11:48",
+         "arrival_min": 708,
+         "departure_min": 708
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        }
+       ]
+      },
+      {
+       "id": "TGV INOUI 7031",
+       "number": "7031",
+       "brand": "TGV INOUI",
+       "stops": [
+        {
+         "uic": "87271007",
+         "name": "Paris Gare du Nord",
+         "lat": 48.880136,
+         "lon": 2.354851,
+         "arrival": "11:43",
+         "departure": "11:43",
+         "arrival_min": 703,
+         "departure_min": 703
+        },
+        {
+         "uic": "87286005",
+         "name": "Lille Flandres",
+         "lat": 50.636577,
+         "lon": 3.06987,
+         "arrival": "12:48",
+         "departure": "12:48",
+         "arrival_min": 768,
+         "departure_min": 768
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        }
+       ]
+      },
+      {
+       "id": "TGV INOUI 7035",
+       "number": "7035",
+       "brand": "TGV INOUI",
+       "stops": [
+        {
+         "uic": "87271007",
+         "name": "Paris Gare du Nord",
+         "lat": 48.880136,
+         "lon": 2.354851,
+         "arrival": "12:45",
+         "departure": "12:45",
+         "arrival_min": 765,
+         "departure_min": 765
+        },
+        {
+         "uic": "87286005",
+         "name": "Lille Flandres",
+         "lat": 50.636577,
+         "lon": 3.06987,
+         "arrival": "13:49",
+         "departure": "13:49",
+         "arrival_min": 829,
+         "departure_min": 829
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        }
+       ]
+      },
+      {
+       "id": "TGV INOUI 7043",
+       "number": "7043",
+       "brand": "TGV INOUI",
+       "stops": [
+        {
+         "uic": "87271007",
+         "name": "Paris Gare du Nord",
+         "lat": 48.880136,
+         "lon": 2.354851,
+         "arrival": "14:44",
+         "departure": "14:44",
+         "arrival_min": 884,
+         "departure_min": 884
+        },
+        {
+         "uic": "87286005",
+         "name": "Lille Flandres",
+         "lat": 50.636577,
+         "lon": 3.06987,
+         "arrival": "15:48",
+         "departure": "15:48",
+         "arrival_min": 948,
+         "departure_min": 948
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        }
+       ]
+      },
+      {
+       "id": "TGV INOUI 7053",
+       "number": "7053",
+       "brand": "TGV INOUI",
+       "stops": [
+        {
+         "uic": "87271007",
+         "name": "Paris Gare du Nord",
+         "lat": 48.880136,
+         "lon": 2.354851,
+         "arrival": "16:43",
+         "departure": "16:43",
+         "arrival_min": 1003,
+         "departure_min": 1003
+        },
+        {
+         "uic": "87286005",
+         "name": "Lille Flandres",
+         "lat": 50.636577,
+         "lon": 3.06987,
+         "arrival": "17:48",
+         "departure": "17:48",
+         "arrival_min": 1068,
+         "departure_min": 1068
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        }
+       ]
+      },
+      {
+       "id": "TGV INOUI 7069",
+       "number": "7069",
+       "brand": "TGV INOUI",
+       "stops": [
+        {
+         "uic": "87271007",
+         "name": "Paris Gare du Nord",
+         "lat": 48.880136,
+         "lon": 2.354851,
+         "arrival": "18:44",
+         "departure": "18:44",
+         "arrival_min": 1124,
+         "departure_min": 1124
+        },
+        {
+         "uic": "87286005",
+         "name": "Lille Flandres",
+         "lat": 50.636577,
+         "lon": 3.06987,
+         "arrival": "19:48",
+         "departure": "19:48",
+         "arrival_min": 1188,
+         "departure_min": 1188
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        }
+       ]
+      },
+      {
+       "id": "TGV INOUI 7085",
+       "number": "7085",
+       "brand": "TGV INOUI",
+       "stops": [
+        {
+         "uic": "87271007",
+         "name": "Paris Gare du Nord",
+         "lat": 48.880136,
+         "lon": 2.354851,
+         "arrival": "20:48",
+         "departure": "20:48",
+         "arrival_min": 1248,
+         "departure_min": 1248
+        },
+        {
+         "uic": "87286005",
+         "name": "Lille Flandres",
+         "lat": 50.636577,
+         "lon": 3.06987,
+         "arrival": "21:52",
+         "departure": "21:52",
+         "arrival_min": 1312,
+         "departure_min": 1312
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        }
+       ]
+      },
+      {
+       "id": "TGV INOUI 7297",
+       "number": "7297",
+       "brand": "TGV INOUI",
+       "stops": [
+        {
+         "uic": "87271007",
+         "name": "Paris Gare du Nord",
+         "lat": 48.880136,
+         "lon": 2.354851,
+         "arrival": "21:53",
+         "departure": "21:53",
+         "arrival_min": 1313,
+         "departure_min": 1313
+        },
+        {
+         "uic": "87342014",
+         "name": "Arras",
+         "lat": 50.286971,
+         "lon": 2.781314,
+         "arrival": "22:42",
+         "departure": "22:45",
+         "arrival_min": 1362,
+         "departure_min": 1365
+        },
+        {
+         "uic": "87286005",
+         "name": "Lille Flandres",
+         "lat": 50.636577,
+         "lon": 3.06987,
+         "arrival": "23:07",
+         "departure": "23:19",
+         "arrival_min": 1387,
+         "departure_min": 1399
+        }
+       ],
+       "legs": [
+        {
+         "track_layout": "double"
+        },
+        {
+         "track_layout": "double"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

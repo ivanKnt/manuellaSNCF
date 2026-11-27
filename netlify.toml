@@ -1,0 +1,25 @@
+# Netlify: static passenger simulation + one small function for the chatbot.
+# The build trains the models and writes app/sim/bundle.json. The browser runs
+# the simulation from that file. The function only calls Groq, so the API key
+# never reaches the page.
+#
+# In the Netlify site settings, add the environment variable GROQ_API_KEY.
+# Without it the chatbot still answers, using the computed facts only.
+
+[build]
+  command = "python3 -m pip install -r requirements-netlify.txt && python3 src/generate_data.py && python3 src/train.py && python3 src/export_netlify.py"
+  publish = "app/sim"
+
+[build.environment]
+  PYTHON_VERSION = "3.12"
+
+[functions]
+  directory = "netlify/functions"
+
+# The page calls /api/chat. On Netlify that is this function. Every other
+# /api/ route is answered in the browser, so it must NOT be redirected.
+[[redirects]]
+  from = "/api/chat"
+  to = "/.netlify/functions/chat"
+  status = 200
+  force = true

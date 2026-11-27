@@ -1,0 +1,12 @@
+pandas
+scikit-learn
+lightgbm
+matplotlib
+streamlit
+fastapi
+uvicorn
+httpx
+requests
+certifi
+gtfs-realtime-bindings
+pytest
