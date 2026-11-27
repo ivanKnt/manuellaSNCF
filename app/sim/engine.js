@@ -2,7 +2,9 @@
 // The Python server (app/sim_server.py) stays the local version. On Netlify
 // there is no Python server, so this file answers the same /api calls from
 // app/sim/bundle.json, which the build writes from the three trained models.
+// Wrapped so its helpers do not collide with the other scripts on the page.
 
+(function () {
 const Engine = {
   bundle: null,
 
@@ -527,4 +529,6 @@ const TEXT = {
   },
 };
 
-if (typeof module !== "undefined") module.exports = { Engine, predict, boost, encode };
+if (typeof globalThis !== "undefined") globalThis.Engine = Engine;
+if (typeof module !== "undefined" && module.exports) module.exports = { Engine, predict, boost, encode };
+})();
